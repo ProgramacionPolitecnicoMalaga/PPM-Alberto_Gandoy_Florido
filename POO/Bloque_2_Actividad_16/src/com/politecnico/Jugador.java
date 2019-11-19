@@ -2,7 +2,6 @@ package com.politecnico;
 
 import java.util.LinkedList;
 import java.util.Objects;
-import java.util.Random;
 
 public class Jugador {
     private String color;
@@ -47,11 +46,12 @@ public class Jugador {
 
     @Override
     public String toString() {
-        return "===================================================" + "\n" +
+        return "================================\n" +
                 "Color: "+ color + "\n" +
                 "Nombre: " + nombreJuador + "\n" +
                 "Casilla actula: " + casillaActual + "\n" +
-                '}';
+                "================================"
+                ;
     }
 
     @Override
@@ -75,7 +75,7 @@ public class Jugador {
     }
     public void retrocederCasilla(int dado){
         if(dado > casillaActual){
-            historial.add(-casillaActual); // Al estar en la casilla 3 por ejemplo y queremos retroceder 6 casillas, solo podemos 3 casillas-
+            historial.add(-casillaActual); // Al estar en la casilla 3 por ejemplo y queremos retroceder 6 casillas, solo podemos 3 casillas.
             casillaActual = 0;
         } else{
             casillaActual = casillaActual - dado;
