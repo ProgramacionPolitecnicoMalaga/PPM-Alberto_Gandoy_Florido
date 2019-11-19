@@ -2,23 +2,27 @@ package com.politecnico;
 
 public class Partida {
     public static void main(String[] args) throws TableroException {
-        Jugador j1 = new Jugador("azul", "Pedro",0);
-        Jugador j2 = new Jugador("rojo", "José",0);
-        Jugador j3 = new Jugador("azul", "Antonio",0);
-        Tablero t = new Tablero();
+        Jugador juagador_1 = new Jugador("amarillo", "Mortadelo",0);
+        Jugador juagador_2 = new Jugador("rojo", "Paca",0);
+        Jugador jugador_3 = new Jugador("azul", "Federico",0);
+        Jugador juagador_4 = new Jugador("verde", "María",0);
+        Tablero tablero = new Tablero();
 
-
-
-        j1.avanzarCasilla(3);
-        j1.avanzarCasilla(2);
-        j1.avanzarCasilla(5);
-        j1.retrocederCasilla(2);
-        j1.historial();
-        System.out.println("-------------------------");
-        j1.undo();
-        j1.undo();
-        j1.redo();
-        j1.historial();
+        juagador_1.avanzarCasilla(tablero.tirarDado());
+        juagador_1.avanzarCasilla(tablero.tirarDado());
+        juagador_1.avanzarCasilla(tablero.tirarDado());
+        juagador_1.avanzarCasilla(tablero.tirarDado());
+        juagador_1.avanzarCasilla(tablero.tirarDado());
+        juagador_1.retrocederCasilla(tablero.tirarDado());
+        juagador_1.avanzarCasilla(tablero.tirarDado());
+        juagador_1.avanzarCasilla(tablero.tirarDado());
+        juagador_1.retrocederCasilla(tablero.tirarDado());
+        juagador_1.historial();
+        System.out.println("==================================");
+        juagador_1.undo();
+        juagador_1.undo();
+        juagador_1.redo();
+        juagador_1.historial();
 
     }
 }
