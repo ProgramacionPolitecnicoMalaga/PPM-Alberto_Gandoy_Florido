@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<empleados>
+    <empleado apellido="De-Nardo" categoria="Técnico" dni="24899042-R" nombre="Facundo"/>
+    <empleado apellido="Rios" categoria="Administrador" dni="19236970-Z" nombre="Jorge"/>
+    <empleado apellido="Gandoy" categoria="Programador" dni="10103389-P" nombre="Alberto"/>
+    <empleado apellido="Gandoy" categoria="Programador" dni="10103389-P" nombre="Alberto"/>
+    <empleado apellido="Romero" categoria="Jefe de proyecto" dni="24896970-L" nombre="Fernando"/>
+    <empleado apellido="Romero" categoria="Jefe de proyecto" dni="00002255-Q" nombre="Celia"/>
+</empleados>

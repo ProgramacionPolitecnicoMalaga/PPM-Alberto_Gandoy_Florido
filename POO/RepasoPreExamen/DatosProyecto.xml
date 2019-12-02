@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<empleados>
+    <proyecto departamento="Seguridad" descripcion="Esto es un proyecto realizado por seguridad" fprod="2.5" nombre="Aphasec"/>
+</empleados>
