@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<curso id="S11AW" nombre="1º Desarrollo de Aplicaciones Web">
+    <asignatura id="ed" nombre="Entorno de desarrollo"/>
+    <asignatura id="prog" nombre="Programación"/>
+    <asignatura id="bsd" nombre="Base de datos"/>
+    <asignatura id="sist" nombre="Sistemas Informáticos"/>
+    <asignatura id="fol" nombre="Formación y orientación laboral"/>
+    <asignatura id="lm" nombre="Lenguaje de marcas"/>
+</curso>
