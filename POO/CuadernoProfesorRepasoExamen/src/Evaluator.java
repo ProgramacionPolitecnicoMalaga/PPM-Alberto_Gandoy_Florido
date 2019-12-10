@@ -45,7 +45,7 @@ public class Evaluator {
     public static void printNodeList(NodeList listaDeNodos, int nivelProfundidad){
         if (listaDeNodos !=  null){
             for (int i = 0; i < listaDeNodos.getLength(); i++) {
-                System.out.println("==========================================");
+                System.out.println("---------------------------------------------" +"\n");
                 Node n = listaDeNodos.item(i);
                 printNodeInfo(n, nivelProfundidad);
                 printNodeAttributes(n,nivelProfundidad);

@@ -101,6 +101,16 @@ public class GenerarXML implements XMLgenerable {
                 nodoAlumno.setAttributeNode(nodoNombreAlumno);
 
 
+                Attr nodoApellidoAlumno = doc.createAttribute("apellido");
+                nodoApellidoAlumno.setValue(alumno.getApellido());
+                nodoAlumno.setAttributeNode(nodoApellidoAlumno);
+
+
+                Attr nodoEdadAlumno = doc.createAttribute("edad");
+                nodoEdadAlumno.setValue(alumno.getEdad());
+                nodoAlumno.setAttributeNode(nodoEdadAlumno);
+
+
                 rootAsignatura.appendChild(nodoAlumno);
 
                 Iterator<Indicador> iterator = listaIndicadores.iterator();
@@ -120,11 +130,11 @@ public class GenerarXML implements XMLgenerable {
                     nodoNotaIndicador.setValue(indicador1.getNota());
                     nodoIndicador.setAttributeNode(nodoNotaIndicador);
 
-                    Attr nodoDescripIndicador = doc.createAttribute("descripcion");
+                    /*Attr nodoDescripIndicador = doc.createAttribute("descripcion");
                     nodoDescripIndicador.setValue(indicador1.getDescripcion());
-                    nodoIndicador.setAttributeNode(nodoDescripIndicador);
+                    nodoIndicador.setAttributeNode(nodoDescripIndicador);*/
 
-                // rootAsignatura.appendChild(doc.createTextNode(indicador1.getDescripcion()));
+                 rootAsignatura.appendChild(doc.createTextNode(indicador1.getDescripcion()));
 
                     nodoAlumno.appendChild(nodoIndicador);
                 }

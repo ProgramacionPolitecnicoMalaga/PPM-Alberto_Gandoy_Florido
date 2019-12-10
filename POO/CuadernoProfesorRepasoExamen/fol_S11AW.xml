@@ -1,23 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <asignatura id="ed" nombre="Entorno de desarrollo">
-    <alumno nombre="Alberto">
-        <indicador descripcion="puede mejorar" nombre="Tema 2 Git" nota="10" tipo="exámen"/>
-        <indicador descripcion="Está viendo su fruto" nombre="actividad 1 en clase" nota="5" tipo="actividad"/>
-        <indicador descripcion="podría sacar más, si no se pusiese tan nerviso" nombre="Crear bases de datos" nota="7" tipo="trabajo en clase"/>
+    <alumno apellido="Gandoy Florido" edad="21" nombre="Alberto">
+        <indicador nombre="Tema 2 Git" nota="10" tipo="exámen"/>
+        <indicador nombre="actividad 1 en clase" nota="5" tipo="actividad"/>
+        <indicador nombre="Crear bases de datos" nota="7" tipo="trabajo en clase"/>
     </alumno>
-    <alumno nombre="Fernando">
-        <indicador descripcion="puede mejorar" nombre="Tema 2 Git" nota="10" tipo="exámen"/>
-        <indicador descripcion="Está viendo su fruto" nombre="actividad 1 en clase" nota="5" tipo="actividad"/>
-        <indicador descripcion="podría sacar más, si no se pusiese tan nerviso" nombre="Crear bases de datos" nota="7" tipo="trabajo en clase"/>
+    Puede mejorar 
+    <alumno apellido="Romero" edad="19" nombre="Fernando">
+        <indicador nombre="Tema 2 Git" nota="10" tipo="exámen"/>
+        <indicador nombre="actividad 1 en clase" nota="5" tipo="actividad"/>
+        <indicador nombre="Crear bases de datos" nota="7" tipo="trabajo en clase"/>
     </alumno>
-    <alumno nombre="Celia">
-        <indicador descripcion="puede mejorar" nombre="Tema 2 Git" nota="10" tipo="exámen"/>
-        <indicador descripcion="Está viendo su fruto" nombre="actividad 1 en clase" nota="5" tipo="actividad"/>
-        <indicador descripcion="podría sacar más, si no se pusiese tan nerviso" nombre="Crear bases de datos" nota="7" tipo="trabajo en clase"/>
+    Puede mejorar 
+    <alumno apellido="Romero" edad="18" nombre="Celia">
+        <indicador nombre="Tema 2 Git" nota="10" tipo="exámen"/>
+        <indicador nombre="actividad 1 en clase" nota="5" tipo="actividad"/>
+        <indicador nombre="Crear bases de datos" nota="7" tipo="trabajo en clase"/>
     </alumno>
-    <alumno nombre="David">
-        <indicador descripcion="puede mejorar" nombre="Tema 2 Git" nota="10" tipo="exámen"/>
-        <indicador descripcion="Está viendo su fruto" nombre="actividad 1 en clase" nota="5" tipo="actividad"/>
-        <indicador descripcion="podría sacar más, si no se pusiese tan nerviso" nombre="Crear bases de datos" nota="7" tipo="trabajo en clase"/>
+    Puede mejorar 
+    <alumno apellido="Fernandez" edad="20" nombre="David">
+        <indicador nombre="Tema 2 Git" nota="10" tipo="exámen"/>
+        <indicador nombre="actividad 1 en clase" nota="5" tipo="actividad"/>
+        <indicador nombre="Crear bases de datos" nota="7" tipo="trabajo en clase"/>
     </alumno>
+    Puede mejorar 
 </asignatura>

@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <asignatura id="ed" nombre="Entorno de desarrollo">
-    <alumno nombre="Alberto">
-        <indicador descripcion="puede mejorar" nombre="Tema 2 Git" nota="10" tipo="exámen"/>
-        <indicador descripcion="Está viendo su fruto" nombre="actividad 1 en clase" nota="5" tipo="actividad"/>
-        <indicador descripcion="podría sacar más, si no se pusiese tan nerviso" nombre="Crear bases de datos" nota="7" tipo="trabajo en clase"/>
-    </alumno>
-    <alumno nombre="Fernando">
-        <indicador descripcion="puede mejorar" nombre="Tema 2 Git" nota="10" tipo="exámen"/>
-        <indicador descripcion="Está viendo su fruto" nombre="actividad 1 en clase" nota="5" tipo="actividad"/>
-        <indicador descripcion="podría sacar más, si no se pusiese tan nerviso" nombre="Crear bases de datos" nota="7" tipo="trabajo en clase"/>
-    </alumno>
-    <alumno nombre="Celia">
-        <indicador descripcion="puede mejorar" nombre="Tema 2 Git" nota="10" tipo="exámen"/>
-        <indicador descripcion="Está viendo su fruto" nombre="actividad 1 en clase" nota="5" tipo="actividad"/>
-        <indicador descripcion="podría sacar más, si no se pusiese tan nerviso" nombre="Crear bases de datos" nota="7" tipo="trabajo en clase"/>
-    </alumno>
-    <alumno nombre="David">
-        <indicador descripcion="puede mejorar" nombre="Tema 2 Git" nota="10" tipo="exámen"/>
-        <indicador descripcion="Está viendo su fruto" nombre="actividad 1 en clase" nota="5" tipo="actividad"/>
-        <indicador descripcion="podría sacar más, si no se pusiese tan nerviso" nombre="Crear bases de datos" nota="7" tipo="trabajo en clase"/>
-    </alumno>
+    <alumno apellido="Gandoy Florido" edad="21" nombre="Alberto"/>
+    <alumno apellido="Romero" edad="19" nombre="Fernando"/>
+    <alumno apellido="Romero" edad="18" nombre="Celia"/>
+    <alumno apellido="Fernandez" edad="20" nombre="David"/>
 </asignatura>

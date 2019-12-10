@@ -32,10 +32,10 @@ public class AppDelProfesor {
         System.out.println("==========rgfdgf======");
 
         //3.Introducir un nuevo alumno y asignarlo a un curso.
-        Alumno alumno0 = new Alumno("Alberto");
-        Alumno alumno1 = new Alumno("Fernando");
-        Alumno alumno2 = new Alumno("Celia");
-        Alumno alumno3 = new Alumno("David");
+        Alumno alumno0 = new Alumno("Alberto","Gandoy Florido","21");
+        Alumno alumno1 = new Alumno("Fernando","Romero","19");
+        Alumno alumno2 = new Alumno("Celia","Romero","18");
+        Alumno alumno3 = new Alumno("David","Fernandez","20");
         curso0.añadirAlumnos(alumno0);
         curso0.añadirAlumnos(alumno1);
         curso0.añadirAlumnos(alumno2);
@@ -53,29 +53,31 @@ public class AppDelProfesor {
 
        /* 5.Definir un nuevo indicador para una asignatura, que puede ser un ejercicio, un examen o una nota de actitud.
         Un indicador se aplica a todos los alumnos de la asignatura.*/
-       Indicador indicador0 = new Indicador("exámen","Tema 2 Git","10","puede mejorar");
-       Indicador indicador1 = new Indicador("actividad","actividad 1 en clase","5","Está viendo su fruto");
-       Indicador indicador2 = new Indicador("trabajo en clase","Crear bases de datos","7", "podría sacar más, si no se pusiese tan nerviso");
+       Indicador indicador0 = new Indicador("exámen","Tema 2 Git","10","Puede mejorar");
+       Indicador indicador1 = new Indicador("actividad","actividad 1 en clase","5","");
+       Indicador indicador2 = new Indicador("trabajo en clase","Crear bases de datos","7", " ");
        alumno0.añadirIndicador(indicador0);
        alumno0.añadirIndicador(indicador1);
        alumno0.añadirIndicador(indicador2);
 
-        System.out.println("=================================xml============================================");
-
+        //GENERANDO ARCHIVOS XML
        GenerarXML generarXML = new GenerarXML();
       // generarXML.xmlGeneratorAsignaturasPorCursos("curso.xml",cursos.getListaDeCursos());
 
         generarXML.xmlGeneratorAsignaturasPorCursos(curso0,curso0.getListaDeAsignaturas());
         generarXML.xmlGeneratorIndicadorPorAlumnoPorCursos(asignatura0.getAsignaturaId() +"_S11AW.xml" ,asignatura0,curso0.getListaDeAlumnos(),alumno0.getListaIndicadores());
-        generarXML.xmlGeneratorIndicadorPorAlumnoPorCursos(asignatura1.getAsignaturaId() +"_S11AW.xml" ,asignatura0,curso0.getListaDeAlumnos(),alumno0.getListaIndicadores());
-        generarXML.xmlGeneratorIndicadorPorAlumnoPorCursos(asignatura2.getAsignaturaId() +"_S11AW.xml" ,asignatura0,curso0.getListaDeAlumnos(),alumno0.getListaIndicadores());
-        generarXML.xmlGeneratorIndicadorPorAlumnoPorCursos(asignatura3.getAsignaturaId() +"_S11AW.xml" ,asignatura0,curso0.getListaDeAlumnos(),alumno0.getListaIndicadores());
+        generarXML.xmlGeneratorIndicadorPorAlumnoPorCursos(asignatura1.getAsignaturaId() +"_S11AW.xml" ,asignatura0,curso0.getListaDeAlumnos(),alumno1.getListaIndicadores());
+        generarXML.xmlGeneratorIndicadorPorAlumnoPorCursos(asignatura2.getAsignaturaId() +"_S11AW.xml" ,asignatura0,curso0.getListaDeAlumnos(),alumno2.getListaIndicadores());
+        generarXML.xmlGeneratorIndicadorPorAlumnoPorCursos(asignatura3.getAsignaturaId() +"_S11AW.xml" ,asignatura0,curso0.getListaDeAlumnos(),alumno3.getListaIndicadores());
         generarXML.xmlGeneratorIndicadorPorAlumnoPorCursos(asignatura4.getAsignaturaId() +"_S11AW.xml" ,asignatura0,curso0.getListaDeAlumnos(),alumno0.getListaIndicadores());
         generarXML.xmlGeneratorIndicadorPorAlumnoPorCursos(asignatura5.getAsignaturaId() +"_S11AW.xml" ,asignatura5,curso0.getListaDeAlumnos(),alumno0.getListaIndicadores());
 
 
+        //LECTURA DE ARCHIVOS XML
         Evaluator evaluator = new Evaluator();
- //      evaluator.mostrarCursoXML();
+        System.out.println("=========== CURSOS + ASIGNATURAS ===========");
+        evaluator.mostrarCursoXML();
+        System.out.println("=========== ASIGNATURAS + ALUMNOS + INDICADORES ===========");
         evaluator.mostrarAsignaturaXML();
 
 
