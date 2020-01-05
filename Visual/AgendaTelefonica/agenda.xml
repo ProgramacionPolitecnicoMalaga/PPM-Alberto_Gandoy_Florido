@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<agenda>
+    <contacto nombre="pablo" telefono="00000"/>
+    <contacto nombre="juan" telefono="111111"/>
+    <contacto nombre="Luna" telefono="33333333"/>
+    <contacto nombre="mercedes" telefono="222222"/>
+    <contacto nombre="carlos" telefono="44444444"/>
+</agenda>
