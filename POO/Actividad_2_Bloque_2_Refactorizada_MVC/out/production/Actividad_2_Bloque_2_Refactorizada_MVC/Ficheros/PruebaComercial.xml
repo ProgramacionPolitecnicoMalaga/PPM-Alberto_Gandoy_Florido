@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<comerciales>
+    <comercial nombre="Jose" record="0">
+        <venta fecha="2" numero="4"/>
+    </comercial>
+</comerciales>
