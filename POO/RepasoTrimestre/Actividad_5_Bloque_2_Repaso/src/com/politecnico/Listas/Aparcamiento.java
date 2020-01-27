@@ -51,13 +51,43 @@ public class Aparcamiento {
         }
     }
 
-    public Vehiculo buscarByBastidor(String bastidor) {
+    public Vehiculo buscarByBastidorDeposito(String bastidor) {
         Vehiculo vehiculoEncontrado = null;
         boolean encontrado = false;
         int i = 0;
         while (depositados.size() > i && !encontrado) {
             if (depositados.get(i).getNumeroBastidor().equals(bastidor)) {
                 vehiculoEncontrado = depositados.get(i);
+                encontrado = true;
+            }
+            i++;
+        }
+        return vehiculoEncontrado;
+    }
+
+    public Vehiculo buscarByBastidorSubastado(String bastidor) {
+        Vehiculo vehiculoEncontrado = null;
+        boolean encontrado = false;
+        int i = 0;
+        while (subastados.size() > i && !encontrado) {
+            if (subastados.get(i).getNumeroBastidor().equals(bastidor)) {
+                vehiculoEncontrado = subastados.get(i);
+                encontrado = true;
+            }
+            i++;
+        }
+        return vehiculoEncontrado;
+    }
+
+
+
+    public Vehiculo buscarByBastidorVentas(String bastidor) {
+        Vehiculo vehiculoEncontrado = null;
+        boolean encontrado = false;
+        int i = 0;
+        while (vendidos.size() > i && !encontrado) {
+            if (vendidos.get(i).getNumeroBastidor().equals(bastidor)) {
+                vehiculoEncontrado = vendidos.get(i);
                 encontrado = true;
             }
             i++;
@@ -84,8 +114,9 @@ public class Aparcamiento {
     }
 
     public void addEvento(Evento evento) throws ExceptionEvento {
-        if (eventos.contains(evento)) {
+       /* if (eventos.contains(evento)) {
             throw new ExceptionEvento("El evento ya existe");
-        } else eventos.add(evento);
+        } else eventos.add(evento);*/
+       eventos.add(evento);
     }
 }

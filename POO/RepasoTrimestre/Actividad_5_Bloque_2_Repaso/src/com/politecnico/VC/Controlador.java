@@ -19,6 +19,7 @@ public class Controlador implements ActionListener {
     public void actionPerformed(ActionEvent e) {
         Persona persona = null;
         Vehiculo vehiculo = null;
+        Evento ventaEvento = null;
         if (e.getActionCommand().equals("añadirVehiculo")) {
             String tipo = vista.obetenerRadioButtonVehiculo();
             String fechaFabricacion = vista.getFabricacion();
@@ -56,7 +57,7 @@ public class Controlador implements ActionListener {
         } else if (e.getActionCommand().equals("subastar")) {
             vista.limpiarTexto();
             String fechaSubasta = vista.getTxtFechaSubasta();
-            vehiculo = aparcamiento.buscarByBastidor(vista.getBoxDeposito());
+            vehiculo = aparcamiento.buscarByBastidorDeposito(vista.getBoxDeposito());
             vista.removeBoxDeposito(vehiculo);
             vista.addBoxSubastado(vehiculo);
             aparcamiento.addVehiculoSubastas(vehiculo);
@@ -86,13 +87,20 @@ public class Controlador implements ActionListener {
             vista.limpiarTexto();
             String precio = vista.getTxtPrecio();
             String fecha = vista.getTxtFechaSubasta();
-           // vehiculo = aparcamiento.buscarByBastidor(vista.getBoxSubasta());
+            vehiculo = aparcamiento.buscarByBastidorSubastado(vista.getBoxSubasta());
             //vista.removeBoxSubastado(vehiculo);
             persona = aparcamiento.getCompradores().buscarPersonaById(vista.getBoxPersonas());
             aparcamiento.getCompradores().addAutorizado(persona);
           // vista.removeBoxPersonas(persona);
             aparcamiento.addVehiculoVendido(vehiculo);
-            Evento ventaEvento = new Venta(vehiculo,fecha, precio, persona);
+            //AÑADIDO RECIENTE:
+             ventaEvento = new Venta(vehiculo,fecha,precio , persona);
+            try {
+                aparcamiento.addEvento(ventaEvento);
+            } catch (ExceptionEvento exceptionEvento) {
+                exceptionEvento.printStackTrace();
+            }
+            vista.mostrarEventoVenta(aparcamiento.getEventos());
             vista.mostrarMensaje("La venta del vehículo: "+ vista.getBoxSubasta() + " se ha realizado correctamente al comprador: " + persona.getIdSubasta()+ " por el precio total de: " + ((Venta)ventaEvento).getPrecio()+ "€");// + vehiculo.getNumeroBastidor()
 
             try {
@@ -119,10 +127,10 @@ public class Controlador implements ActionListener {
                 exceptionEvento.printStackTrace();
             }*/
         }else if (e.getActionCommand().equals("mostrarVendido")) {
-            vehiculo = aparcamiento.buscarByBastidor(vista.getBoxSubasta());
+            vehiculo = aparcamiento.buscarByBastidorVentas(vista.getBoxSubasta());
             aparcamiento.addVehiculoVendido(vehiculo);
             vista.mostrarVendidos(aparcamiento.getVehiculosVendidos());
-            System.out.println(")))))))))))))))))))))))))))))))))))))))" + aparcamiento.getVehiculosVendidos());
+            System.out.println("==============================================" + aparcamiento.getVehiculosVendidos());
 
         }
     }

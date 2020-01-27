@@ -21,10 +21,7 @@ public class Compradores {
     }
 
     public void addAutorizado(Persona persona) {
-        persona.setEstado(true);
-        if (persona.isEstado() == true) {
             autorizadas.add(persona);
-        }else System.out.println("No está autorizado");
     }
 
     public Persona buscarPersonaById(String idSubasta) {

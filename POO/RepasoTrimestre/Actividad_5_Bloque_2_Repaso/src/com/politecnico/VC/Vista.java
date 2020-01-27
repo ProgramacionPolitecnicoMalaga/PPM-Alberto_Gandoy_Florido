@@ -1,8 +1,10 @@
 package com.politecnico.VC;
 
+import com.politecnico.Eventos.Evento;
 import com.politecnico.Modelo.Persona;
 import com.politecnico.Modelo.Vehiculo;
 
+import javax.naming.event.EventContext;
 import javax.swing.*;
 import java.awt.event.ActionListener;
 import java.util.ArrayList;
@@ -150,10 +152,18 @@ public class Vista extends JFrame {
         }
     }
 
-    public void mostrarVendidos(ArrayList<Vehiculo> vendidos) {
+  public void mostrarVendidos(ArrayList<Vehiculo> vendidos) {
         limpiarTexto();
         for(Vehiculo vehiculo : vendidos) {
             txtResultado.append(vehiculo.toString());
+            txtResultado.append(System.getProperty("line.separator"));
+        }
+    }
+
+    public void mostrarEventoVenta(ArrayList<Evento> eventos) {
+        limpiarTexto();
+        for (Evento evento : eventos) {
+            txtResultado.append(evento.toString());
             txtResultado.append(System.getProperty("line.separator"));
         }
     }

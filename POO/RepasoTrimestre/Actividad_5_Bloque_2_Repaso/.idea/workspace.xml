@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="abe2a625-b7f3-4580-9fb2-0e4495bc40f8" name="Default Changelist" comment="" />
-    <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,64 +11,8 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/politecnico/VC/Controlador.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="95" column="81" selection-start-line="95" selection-start-column="81" selection-end-line="95" selection-end-column="81" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/politecnico/VC/Vista.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="161" column="22" selection-start-line="161" selection-start-column="22" selection-end-line="161" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3270#3271#0" expanded="true" />
-                <element signature="e#3337#3338#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/politecnico/Eventos/Evento.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/politecnico/VC/Vista.form">
-          <provider selected="true" editor-type-id="ui-designer" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/politecnico/Listas/Aparcamiento.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="73" column="14" lean-forward="true" selection-start-line="73" selection-start-column="14" selection-end-line="73" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="FavoritesManager">
+    <favorites_list name="Actividad_5_Bloque_2_Repaso" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -83,150 +26,10 @@
       <find>fecha</find>
     </findStrings>
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/Actividad_5/Modelo/Coche.java" />
-        <option value="$PROJECT_DIR$/src/Actividad_5/Demo.java" />
-        <option value="$PROJECT_DIR$/src/Actividad_5/Modelo/Vehiculo.java" />
-        <option value="$PROJECT_DIR$/src/Actividad_5/Modelo/Venta.java" />
-        <option value="$PROJECT_DIR$/src/Actividad_5/Modelo/ExceptionVehiculo.java" />
-        <option value="$PROJECT_DIR$/src/Actividad_5/Negocio/Deposito.java" />
-        <option value="$PROJECT_DIR$/src/Actividad_5/Negocio/Subasta.java" />
-        <option value="$PROJECT_DIR$/src/Actividad_5/Modelo/Subasta.java" />
-        <option value="$PROJECT_DIR$/src/Vehiculo.java" />
-        <option value="$PROJECT_DIR$/src/PersonaJuridica.java" />
-        <option value="$PROJECT_DIR$/src/PersonaFisica.java" />
-        <option value="$PROJECT_DIR$/src/Persona.java" />
-        <option value="$PROJECT_DIR$/src/Venta.java" />
-        <option value="$PROJECT_DIR$/src/Deposito.java" />
-        <option value="$PROJECT_DIR$/src/Subasta.java" />
-        <option value="$PROJECT_DIR$/src/Compradores.java" />
-        <option value="$PROJECT_DIR$/src/Vendidos.java" />
-        <option value="$PROJECT_DIR$/src/App.java" />
-        <option value="$PROJECT_DIR$/src/com/politecnico/Negocio/GestionVehiculos.java" />
-        <option value="$PROJECT_DIR$/src/com/politecnico/Negocio/Compradores.java" />
-        <option value="$PROJECT_DIR$/src/com/politecnico/Modelo/Confiscacion.java" />
-        <option value="$PROJECT_DIR$/src/com/politecnico/Modelo/Evento.java" />
-        <option value="$PROJECT_DIR$/src/com/politecnico/Negocio/Vendidos.java" />
-        <option value="$PROJECT_DIR$/src/com/politecnico/Negocio/Subasta.java" />
-        <option value="$PROJECT_DIR$/src/com/politecnico/Negocio/Deposito.java" />
-        <option value="$PROJECT_DIR$/src/com/politecnico/Evento/Subasta.java" />
-        <option value="$PROJECT_DIR$/src/com/politecnico/App.java" />
-        <option value="$PROJECT_DIR$/src/com/politecnico/Evento/Evento.java" />
-        <option value="$PROJECT_DIR$/src/com/politecnico/Modelo/CreadorVehiculo.java" />
-        <option value="$PROJECT_DIR$/src/com/politecnico/Modelo/Coche.java" />
-        <option value="$PROJECT_DIR$/src/com/politecnico/Modelo/Barco.java" />
-        <option value="$PROJECT_DIR$/src/com/politecnico/Modelo/Camion.java" />
-        <option value="$PROJECT_DIR$/src/com/politecnico/Evento/Venta.java" />
-        <option value="$PROJECT_DIR$/src/com/politecnico/Modelo/Vehiculo.java" />
-        <option value="$PROJECT_DIR$/src/com/politecnico/MV/Vista.form" />
-        <option value="$PROJECT_DIR$/src/com/politecnico/MV/Controlador.java" />
-        <option value="$PROJECT_DIR$/src/com/politecnico/MV/Vista.java" />
-        <option value="$PROJECT_DIR$/src/com/politecnico/Evento/ExceptionEvento.java" />
-        <option value="$PROJECT_DIR$/src/com/politecnico/Negocio/Aparcamiento.java" />
-        <option value="$PROJECT_DIR$/src/com/politecnico/Main/App.java" />
-        <option value="$PROJECT_DIR$/src/com/politecnico/Modelo/PersonaFisica.java" />
-        <option value="$PROJECT_DIR$/src/com/politecnico/Modelo/PersonaJuridica.java" />
-        <option value="$PROJECT_DIR$/src/com/politecnico/Listas/Compradores.java" />
-        <option value="$PROJECT_DIR$/src/com/politecnico/VC/Vista.form" />
-        <option value="$PROJECT_DIR$/src/com/politecnico/Modelo/Persona.java" />
-        <option value="$PROJECT_DIR$/src/com/politecnico/Eventos/Confiscar.java" />
-        <option value="$PROJECT_DIR$/src/com/politecnico/Eventos/Venta.java" />
-        <option value="$PROJECT_DIR$/src/com/politecnico/Eventos/Evento.java" />
-        <option value="$PROJECT_DIR$/src/com/politecnico/VC/Vista.java" />
-        <option value="$PROJECT_DIR$/src/com/politecnico/Listas/Aparcamiento.java" />
-        <option value="$PROJECT_DIR$/src/com/politecnico/VC/Controlador.java" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="974" />
-    <option name="height" value="1047" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Actividad_5_Bloque_2_Repaso" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Actividad_5_Bloque_2_Repaso" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Actividad_5_Bloque_2_Repaso" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Actividad_5_Bloque_2_Repaso" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Actividad_5_Bloque_2_Repaso" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Actividad_5_Bloque_2_Repaso" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Actividad_5_Bloque_2_Repaso" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Actividad_5_Bloque_2_Repaso" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="politecnico" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Actividad_5_Bloque_2_Repaso" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Actividad_5_Bloque_2_Repaso" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="politecnico" type="462c0819:PsiDirectoryNode" />
-              <item name="Eventos" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Actividad_5_Bloque_2_Repaso" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Actividad_5_Bloque_2_Repaso" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="politecnico" type="462c0819:PsiDirectoryNode" />
-              <item name="Listas" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Actividad_5_Bloque_2_Repaso" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Actividad_5_Bloque_2_Repaso" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="politecnico" type="462c0819:PsiDirectoryNode" />
-              <item name="Main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Actividad_5_Bloque_2_Repaso" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Actividad_5_Bloque_2_Repaso" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="politecnico" type="462c0819:PsiDirectoryNode" />
-              <item name="Modelo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Actividad_5_Bloque_2_Repaso" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Actividad_5_Bloque_2_Repaso" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="politecnico" type="462c0819:PsiDirectoryNode" />
-              <item name="VC" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Actividad_5_Bloque_2_Repaso" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Actividad_5_Bloque_2_Repaso" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="politecnico" type="462c0819:PsiDirectoryNode" />
-              <item name="VC" type="462c0819:PsiDirectoryNode" />
-              <item name="Vista" type="e9f4de52:FormNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
-  </component>
+  <component name="ProjectId" id="1WyWqOXsFvmzJp8CtZHFVM7Suuk" />
   <component name="PropertiesComponent">
     <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH" value="181" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Actividad_2_Bloque_2_Refactorizada_MVC" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -273,195 +76,57 @@
     </task>
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Designer" order="0" />
-      <window_info id="UI Designer" order="1" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info id="Image Layers" order="4" />
-      <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="6" weight="0.5634573" />
-      <window_info anchor="bottom" id="Terminal" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="2" weight="0.32936078" />
-      <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info anchor="bottom" id="Find" order="4" weight="0.32827735" />
-      <window_info anchor="bottom" id="Run" order="5" weight="0.6370531" />
-      <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="7" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="9" />
-      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="right" id="Theme Preview" order="0" />
-      <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="right" id="Palette&#9;" order="2" />
-      <window_info anchor="right" id="Maven" order="3" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
-    </layout>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Actividad_5/Demo.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/politecnico/Negocio.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/politecnico/Modelo/ExceptionVehiculo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/politecnico/Negocio/GestionVehiculos.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/politecnico/Negocio/Vendidos.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/politecnico/Negocio/Subasta.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/politecnico/Negocio/Deposito.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/politecnico/Modelo/CreadorVehiculo.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/politecnico/Modelo/Coche.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="60" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/politecnico/Modelo/Barco.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="60" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/politecnico/Modelo/Camion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="60" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/politecnico/Eventos/ExceptionEvento.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
-          <folding>
-            <element signature="e#163#164#0" expanded="true" />
-            <element signature="e#193#194#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/politecnico/Main/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/politecnico/Modelo/PersonaJuridica.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="58" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/politecnico/Modelo/PersonaFisica.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="5" lean-forward="true" selection-start-line="5" selection-start-column="56" selection-end-line="7" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/politecnico/Listas/Compradores.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="3" column="39" lean-forward="true" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/politecnico/Eventos/Confiscar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/politecnico/Eventos/Subasta.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/politecnico/Modelo/Vehiculo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-91">
-          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/politecnico/VC/Vista.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/politecnico/Modelo/Persona.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-385">
-          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/politecnico/Eventos/Venta.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/politecnico/Listas/Aparcamiento.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="73" column="14" lean-forward="true" selection-start-line="73" selection-start-column="14" selection-end-line="73" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/politecnico/VC/Vista.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="161" column="22" selection-start-line="161" selection-start-column="22" selection-end-line="161" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3270#3271#0" expanded="true" />
-            <element signature="e#3337#3338#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/politecnico/Eventos/Evento.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/politecnico/VC/Controlador.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="95" column="81" selection-start-line="95" selection-start-column="81" selection-end-line="95" selection-end-column="81" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/politecnico/VC/Controlador.java</url>
+          <line>131</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/politecnico/VC/Controlador.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/politecnico/VC/Controlador.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/politecnico/VC/Controlador.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/politecnico/VC/Vista.java</url>
+          <line>147</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/politecnico/VC/Vista.java</url>
+          <line>155</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/politecnico/Listas/Aparcamiento.java</url>
+          <line>103</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/com/politecnico/Listas/Aparcamiento.java</url>
+          <line>10</line>
+          <properties field="depositados" class="com.politecnico.Listas.Aparcamiento" />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/com/politecnico/Listas/Aparcamiento.java</url>
+          <line>11</line>
+          <properties field="subastados" class="com.politecnico.Listas.Aparcamiento" />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
