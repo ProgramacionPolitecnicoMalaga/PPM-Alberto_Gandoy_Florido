@@ -53,84 +53,6 @@ public class Categoria {
         this.ejecutadas = ejecutadas;
     }
 
-    public void addTareaPendiente(Tarea tarea) {
-        if (pendientes.contains(tarea) && tarea.isEstado() == true) {
-            try {
-                throw new ExceptionEstado("La tarea que estás añadiendo ya está en estado pendiente");
-            } catch (ExceptionEstado exceptionEstado) {
-                exceptionEstado.printStackTrace();
-            }
-        } else if (tarea.isEstado() == false){ pendientes.add(tarea); }
-    }
-
-    public Tarea consultarTareaPendiente(String idTarea) {
-        Tarea tareaPendiente = null;
-        boolean encontrado = false;
-        int i = 0;
-        while (pendientes.size() > i && !encontrado) {
-            if (pendientes.get(i).getId().equals(idTarea)) {
-                tareaPendiente = pendientes.get(i);
-                encontrado = true;
-            }
-            i++;
-        }
-        return tareaPendiente;
-    }
-
-    public void addTareaEjecutada(Tarea tarea) {
-        if (pendientes.contains(tarea)) {
-            pendientes.remove(tarea);
-            tarea.setEstado(true);
-            ejecutadas.add(tarea);
-        } else if (ejecutadas.contains(tarea)) {
-            try {
-                throw new ExceptionEstado("La tarea que estás añadiendo ya está en ejecución");
-            } catch (ExceptionEstado exceptionEstado) {
-                exceptionEstado.printStackTrace();
-            }
-        }
-    }
-
-    public void eliminarTareaFinaliza(Tarea tarea) {
-      if (tarea.isEstado() == true) {
-          ejecutadas.remove(tarea);
-      } else {
-          try {
-              throw new ExceptionEstado("La tarea sigue en ejecución o está en pendientes.");
-          } catch (ExceptionEstado exceptionEstado) {
-              exceptionEstado.printStackTrace();
-          }
-      }
-    }
-
-    public Tarea consultarTareasEnEjecucion(String idTarea) {
-        Tarea tareaPendiente = null;
-        boolean encontrado = false;
-        int i = 0;
-        while (ejecutadas.size() > i && !encontrado) {
-            if (ejecutadas.get(i).getId().equals(idTarea)) {
-                tareaPendiente = ejecutadas.get(i);
-                encontrado = true;
-            }
-            i++;
-        }
-        return tareaPendiente;
-    }
-
-    public Tarea consultarTareaPendientePorFecha(Date fechaTarea) {
-        Tarea tareaAbuscar = null;
-        boolean encontrado = false;
-        int i = 0;
-        while (pendientes.size() > i && !encontrado) {
-            if (pendientes.get(i).getFecha().equals(fechaTarea)) {
-                tareaAbuscar = pendientes.get(i);
-                encontrado = true;
-            }
-            i++;
-        }
-        return tareaAbuscar;
-    }
-
     @Override
     public String toString() {
         return "Categoria{" +
@@ -153,4 +75,84 @@ public class Categoria {
     public int hashCode() {
         return Objects.hash(id);
     }
+
+
+
+   /* public void addTareaPendiente(Tarea tarea) {
+        if (pendientes.contains(tarea) && tarea.isEstado() == true) {
+            try {
+                throw new ExceptionEstado("La tarea que estás añadiendo ya está en estado pendiente");
+            } catch (ExceptionEstado exceptionEstado) {
+                exceptionEstado.printStackTrace();
+            }
+        } else if (tarea.isEstado() == false){ pendientes.add(tarea); }
+    }*/
+
+   /* public Tarea consultarTareaPendiente(String idTarea) {
+        Tarea tareaPendiente = null;
+        boolean encontrado = false;
+        int i = 0;
+        while (pendientes.size() > i && !encontrado) {
+            if (pendientes.get(i).getId().equals(idTarea)) {
+                tareaPendiente = pendientes.get(i);
+                encontrado = true;
+            }
+            i++;
+        }
+        return tareaPendiente;
+    }*/
+
+    /*public void addTareaEjecutada(Tarea tarea) {
+        if (pendientes.contains(tarea)) {
+            pendientes.remove(tarea);
+            tarea.setEstado(true);
+            ejecutadas.add(tarea);
+        } else if (ejecutadas.contains(tarea)) {
+            try {
+                throw new ExceptionEstado("La tarea que estás añadiendo ya está en ejecución");
+            } catch (ExceptionEstado exceptionEstado) {
+                exceptionEstado.printStackTrace();
+            }
+        }
+    }*/
+
+   /* public void eliminarTareaFinaliza(Tarea tarea) {
+        if (tarea.isEstado() == true) {
+            ejecutadas.remove(tarea);
+        } else {
+            try {
+                throw new ExceptionEstado("La tarea sigue en ejecución o está en pendientes.");
+            } catch (ExceptionEstado exceptionEstado) {
+                exceptionEstado.printStackTrace();
+            }
+        }
+    }*/
+
+    /*public Tarea consultarTareasEnEjecucion(String idTarea) {
+        Tarea tareaPendiente = null;
+        boolean encontrado = false;
+        int i = 0;
+        while (ejecutadas.size() > i && !encontrado) {
+            if (ejecutadas.get(i).getId().equals(idTarea)) {
+                tareaPendiente = ejecutadas.get(i);
+                encontrado = true;
+            }
+            i++;
+        }
+        return tareaPendiente;
+    }*/
+
+ /*   public Tarea consultarTareaPendientePorFecha(Date fechaTarea) {
+        Tarea tareaAbuscar = null;
+        boolean encontrado = false;
+        int i = 0;
+        while (pendientes.size() > i && !encontrado) {
+            if (pendientes.get(i).getFecha().equals(fechaTarea)) {
+                tareaAbuscar = pendientes.get(i);
+                encontrado = true;
+            }
+            i++;
+        }
+        return tareaAbuscar;
+    }*/
 }

@@ -20,33 +20,5 @@ public class Categorias {
         this.categorias = categorias;
     }
 
-    public void addCategoria(Categoria categoria) {
-        if (categorias.contains(categoria)) {
-            try {
-                throw new ExceptionCategoria("La categoría " + categoria.getNombre() + " ya existe.");
-            } catch (ExceptionCategoria exceptionCategoria) {
-                exceptionCategoria.printStackTrace();
-            }
-        } else {
-            categorias.add(categoria);
-        }
-    }
 
-    public void mostrarCategoriasExistentes() {
-        for (Categoria categoria : categorias) {
-            System.out.println(categoria);
-        }
-    }
-
-    public ArrayList<Tarea> consultarTareasDeUnCategoria(String id) {
-        ArrayList<Tarea> res = new ArrayList<>();
-        for (Categoria categoria : categorias) {
-            for(Tarea tarea : categoria.getPendientes()){
-                if(tarea.getId().equals(id)){
-                    res.add(tarea);
-                }
-            }
-        }
-        return res;
-    }
 }
