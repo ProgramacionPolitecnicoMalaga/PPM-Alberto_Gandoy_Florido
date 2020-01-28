@@ -1,17 +1,17 @@
 package com.politecnico.Modelo;
 
-import com.politecnico.Negocio.Estado;
-
 import java.util.*;
 
 public class Tarea {
     private String id, descipcion;
     private Date fecha;
+    private boolean estado;
 
-    public Tarea(String id, String descipcion, Date fecha) {
+    public Tarea(String id, String descipcion, Date fecha, boolean estado) {
         this.id = id;
         this.descipcion = descipcion;
         this.fecha = fecha;
+        this.estado = estado;
     }
 
     public String getId() {
@@ -36,6 +36,14 @@ public class Tarea {
 
     public void setFecha(Date fecha) {
         this.fecha = fecha;
+    }
+
+    public boolean isEstado() {
+        return estado;
+    }
+
+    public void setEstado(boolean estado) {
+        this.estado = estado;
     }
 
     @Override

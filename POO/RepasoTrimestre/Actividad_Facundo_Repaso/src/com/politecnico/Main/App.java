@@ -1,69 +1,53 @@
 package com.politecnico.Main;
 
-import com.politecnico.Modelo.Categoria;
+import com.politecnico.Negocio.Categoria;
 import com.politecnico.Modelo.Tarea;
 import com.politecnico.Negocio.Categorias;
-import com.politecnico.Negocio.Estado;
 
-import java.util.Calendar;
 import java.util.Date;
-import java.util.GregorianCalendar;
 
 public class App {
     public static void main(String[] args) {
         Date date = new Date();
 
         //1.Crear una nueva categoría.
-        Categoria c1 = new Categoria("C1","Trabajo");
+        Categoria cat_1 = new Categoria("c1", "Hogar");
+        Categoria cat_2 = new Categoria("c2", "Trabajo");
 
-        System.out.println("===================================2==========================");
         //2.Mostrar las categorías existentes.
         Categorias categorias = new Categorias();
-        categorias.addCategoria(c1);
+        categorias.addCategoria(cat_1);
+        categorias.addCategoria(cat_2);
         categorias.mostrarCategoriasExistentes();
-        System.out.println("==============================================================");
 
         //3.Crear una nueva tarea.
-        Tarea t1 = new Tarea("T1","Refactorizar este código",date);
+        Tarea tar_1 = new Tarea("t1", "Hacer lista de la compra",date,false);
+        Tarea tar_2 = new Tarea("t2", "Realizar actividad 5",date,false);
 
-        System.out.println("===================================4==========================");
         //4.Consultar las tareas pendientes.
-        Estado estado = new Estado();
-        estado.addTareaPendiente(t1);
-        System.out.println(estado.consultarTareaPendiente(t1.getId()));
-        System.out.println("==============================================================");
+        cat_1.addTareaPendiente(tar_1);
+        cat_2.addTareaPendiente(tar_2);
+        System.out.println("1.TAREA PENDIENTE: " + cat_1.consultarTareaPendiente(tar_1.getId()));
+        System.out.println("2.TAREA PENDIENTE: " + cat_2.consultarTareaPendiente(tar_2.getId()));
 
-        System.out.println("===================================5==========================");
         //5.Eliminar una tarea (completada).
-       // estado.addTareaEjecutada(t1); Lo he comentado por el apartado 8, que sino me salía la lista vacía.
-        //estado.eliminarTareaFinaliza(t1);
-        System.out.println("==============================================================");
+        //Añado la tarea a ejecución.
+        cat_1.addTareaEjecutada(tar_1);
+        //La eliminar si está en dicha lista.
+        cat_1.eliminarTareaFinaliza(tar_1);
+        categorias.mostrarCategoriasExistentes();
 
-        System.out.println("===================================6==========================");
         //6.Consultar las tareas de una categoría.
-        c1.addTarea(t1);
-        System.out.println(categorias.consultarTareasDeUnCategoria(t1.getId()));
-        System.out.println("==============================================================");
+        System.out.println("CONSULTAR TAREA DE UNA CATEGORÍA: " + categorias.consultarTareasDeUnCategoria(tar_2.getId()));
 
-        System.out.println("===================================7==========================");
         //7.Consultar las tareas en una fecha.
-        System.out.println(c1.consultarTareaPorFecha(t1.getFecha()));
-        System.out.println("==============================================================");
+        System.out.println("CONSULTAR POR FECHA: " + cat_2.consultarTareaPendientePorFecha(date));
 
-
-        System.out.println("===================================8==========================");
         //8.Consultar las tareas en tiempo.
-        estado.addTareaEjecutada(t1);
-        System.out.println(estado.consultarTareasEnEjecucion(t1.getId()));
-        System.out.println("==============================================================");
+        cat_2.addTareaEjecutada(tar_2);
+        System.out.println("TAREAS EN TIEMPO: " + cat_2.consultarTareasEnEjecucion(tar_2.getId()));
 
-
-
-
-        System.out.println("===================================9==========================");
-        //9.Consultar las tareas retrasadas.
-        estado.addTareaRetrasada(t1);
-        System.out.println(estado.consultarTareaRetrasada(t1.getId()));
-        System.out.println("==============================================================");
+        //9.Consultar tarea retrasada.
+        System.out.println("CONSULTAR TAREA RETRASADA: " + cat_2.consultarTareaPendientePorFecha(date));
     }
 }

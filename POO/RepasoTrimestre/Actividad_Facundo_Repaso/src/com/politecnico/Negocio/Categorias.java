@@ -1,11 +1,9 @@
 package com.politecnico.Negocio;
 
-import com.politecnico.Modelo.Categoria;
 import com.politecnico.Modelo.ExceptionCategoria;
 import com.politecnico.Modelo.Tarea;
 
 import java.util.ArrayList;
-import java.util.Date;
 
 public class Categorias {
     private ArrayList<Categoria> categorias;
@@ -43,7 +41,7 @@ public class Categorias {
     public ArrayList<Tarea> consultarTareasDeUnCategoria(String id) {
         ArrayList<Tarea> res = new ArrayList<>();
         for (Categoria categoria : categorias) {
-            for(Tarea tarea : categoria.getTareas()){
+            for(Tarea tarea : categoria.getPendientes()){
                 if(tarea.getId().equals(id)){
                     res.add(tarea);
                 }
