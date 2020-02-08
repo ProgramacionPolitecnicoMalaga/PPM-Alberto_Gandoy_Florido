@@ -2,53 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7646cd58-cafc-42ac-9c4a-ea794be84915" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/jcalendar_1_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Escribir/CreadorDocumentoXML.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Escribir/GeneradorDocumentoXML.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Proyecto/Compra.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Proyecto/CuentaBancariaException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Proyecto/Operacion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Proyecto/Vendedor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Proyecto/Venta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SwingUI/VistaCliente/GestorControlador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SwingUI/VistaVehiculo/GestorControladorVehiculo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SwingUI/VistaVehiculo/VistaVehiculo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ActividadPropuestaAlberto.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ActividadPropuestaAlberto.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ActividadPropuestaAlberto/Gestores/GestorControlador.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ActividadPropuestaAlberto/Gestores/GestorControladorVehiculo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ActividadPropuestaAlberto/Main/AppVehiculo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ActividadPropuestaAlberto/Main/AppVehiculo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ActividadPropuestaAlberto/Modelo/Concesionario.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ActividadPropuestaAlberto/Modelo/Concesionario.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ActividadPropuestaAlberto/Proyecto/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ActividadPropuestaAlberto/Proyecto/Cliente.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ActividadPropuestaAlberto/Proyecto/CompraVenta.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ActividadPropuestaAlberto/Proyecto/CuentaBancaria.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ActividadPropuestaAlberto/Proyecto/CuentaBancaria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ActividadPropuestaAlberto/Proyecto/ExceptionCliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ActividadPropuestaAlberto/Proyecto/ExceptionCliente.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ActividadPropuestaAlberto/Proyecto/ExceptionVehiculo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ActividadPropuestaAlberto/Proyecto/ExceptionVehiculo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ActividadPropuestaAlberto/Proyecto/Vehiculo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ActividadPropuestaAlberto/Proyecto/Vehiculo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ActividadPropuestaAlberto/UI/GestorUI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ActividadPropuestaAlberto/UI/UI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ActividadPropuestaAlberto/VC/Controlador.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ActividadPropuestaAlberto/VC/ControladorVehiculo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ActividadPropuestaAlberto/VC/Vista.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ActividadPropuestaAlberto/VC/VistaVehiculo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Gestores/GestorControlador.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Gestores/GestorControladorVehiculo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/AppVehiculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/AppVehiculo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Modelo/Concesionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modelo/Concesionario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Proyecto/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Proyecto/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Proyecto/CompraVenta.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Proyecto/CuentaBancaria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Proyecto/CuentaBancaria.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Proyecto/ExceptionCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Proyecto/ExceptionCliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Proyecto/ExceptionVehiculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Proyecto/ExceptionVehiculo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Proyecto/Vehiculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Proyecto/Vehiculo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VC/Controlador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SwingUI/VistaCliente/Controlador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VC/ControladorVehiculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SwingUI/VistaVehiculo/ControladorVehiculo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VC/Vista.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/SwingUI/VistaCliente/Vista.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VC/Vista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SwingUI/VistaCliente/Vista.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VC/VistaVehiculo.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/SwingUI/VistaVehiculo/VistaVehiculo.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VC/VistaVehiculo.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +84,8 @@
       <workItem from="1581006293519" duration="9535000" />
       <workItem from="1581084893520" duration="3509000" />
       <workItem from="1581095993476" duration="10807000" />
-      <workItem from="1581166302622" duration="1926000" />
+      <workItem from="1581166302622" duration="2202000" />
+      <workItem from="1581168665995" duration="3408000" />
     </task>
     <servers />
   </component>
@@ -167,31 +122,31 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="741" y="309" key="#com.intellij.uiDesigner.palette.ComponentItemDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581009053120" />
-    <state x="651" y="171" key="FileChooserDialogImpl" timestamp="1581164705348">
+    <state x="651" y="171" key="FileChooserDialogImpl" timestamp="1581170299240">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1580733977925" />
-    <state x="651" y="171" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1581164705348" />
-    <state width="1877" height="559" key="GridCell.Tab.0.bottom" timestamp="1581168239000">
+    <state x="651" y="171" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1581170299240" />
+    <state width="1877" height="559" key="GridCell.Tab.0.bottom" timestamp="1581168556829">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="444" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580742872649" />
-    <state width="1877" height="559" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581168239000" />
-    <state width="1877" height="559" key="GridCell.Tab.0.center" timestamp="1581168239000">
+    <state width="1877" height="559" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581168556829" />
+    <state width="1877" height="559" key="GridCell.Tab.0.center" timestamp="1581168556829">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="444" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1580742872649" />
-    <state width="1877" height="559" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581168239000" />
-    <state width="1877" height="559" key="GridCell.Tab.0.left" timestamp="1581168239000">
+    <state width="1877" height="559" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581168556829" />
+    <state width="1877" height="559" key="GridCell.Tab.0.left" timestamp="1581168556829">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="444" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1580742872649" />
-    <state width="1877" height="559" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581168239000" />
-    <state width="1877" height="559" key="GridCell.Tab.0.right" timestamp="1581168239000">
+    <state width="1877" height="559" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581168556829" />
+    <state width="1877" height="559" key="GridCell.Tab.0.right" timestamp="1581168556829">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="444" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1580742872649" />
-    <state width="1877" height="559" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581168239000" />
+    <state width="1877" height="559" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581168556829" />
     <state x="440" y="95" key="SettingsEditor" timestamp="1581009031061">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -200,6 +155,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="287" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581026443160" />
+    <state x="0" y="145" key="new project wizard" timestamp="1581170302136">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="145" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1581170302136" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1581085371852">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
