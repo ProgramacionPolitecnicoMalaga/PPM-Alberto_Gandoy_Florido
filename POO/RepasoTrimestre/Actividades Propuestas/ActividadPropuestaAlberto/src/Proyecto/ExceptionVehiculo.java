@@ -1,6 +1,7 @@
 package Proyecto;
 
 public class ExceptionVehiculo extends Exception {
+
     public ExceptionVehiculo() {
     }
 

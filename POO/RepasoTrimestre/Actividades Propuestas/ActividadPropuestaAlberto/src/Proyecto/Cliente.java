@@ -6,6 +6,9 @@ public class Cliente {
     private String nombre, apellido, nif;
     private CuentaBancaria cuentaBancaria;
 
+    public Cliente() {
+    }
+
     public Cliente(String nombre, String apellido, String nif, CuentaBancaria cuentaBancaria) {
         this.nombre = nombre;
         this.apellido = apellido;
@@ -43,6 +46,18 @@ public class Cliente {
 
     public void setCuentaBancaria(CuentaBancaria cuentaBancaria) {
         this.cuentaBancaria = cuentaBancaria;
+    }
+
+    public void pagar(double cantidad){
+        cuentaBancaria.restarSaldo(cantidad);
+    }
+
+    public void cobrar(double cantidad){
+        cuentaBancaria.sumarSaldo(cantidad);
+    }
+
+    public double getSaldo(){
+        return cuentaBancaria.getSaldoContable();
     }
 
     @Override

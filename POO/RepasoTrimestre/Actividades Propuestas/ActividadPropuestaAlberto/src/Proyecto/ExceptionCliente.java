@@ -1,6 +1,7 @@
 package Proyecto;
 
 public class ExceptionCliente extends Exception {
+
     public ExceptionCliente() {
     }
 

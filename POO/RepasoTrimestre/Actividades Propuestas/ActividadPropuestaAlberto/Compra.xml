@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<comprado>
+    <vehiculo color="Gris" combustion="Diesel" estado="SinUsar" marca="Audi" modelo="TT"/>
+    <cliente Nif="2410096-Z" apellido="Pan" nombre="Alejandro">
+        <cuenta IBAN="ES98-555-444-25" saldo="1118.0"/>
+    </cliente>
+</comprado>

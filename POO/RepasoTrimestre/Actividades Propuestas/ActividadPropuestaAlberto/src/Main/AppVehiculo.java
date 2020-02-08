@@ -1,9 +1,9 @@
 package Main;
 
-import Gestores.GestorControlador;
 import Modelo.Concesionario;
-import VC.Controlador;
-import VC.Vista;
+import SwingUI.VistaCliente.Controlador;
+import SwingUI.VistaCliente.GestorControlador;
+import SwingUI.VistaCliente.Vista;
 
 import java.awt.event.ActionListener;
 
@@ -15,5 +15,6 @@ public class AppVehiculo {
         ActionListener controlador = new Controlador(gestorControlador);
         vista.setControlador(controlador);
         vista.init();
+
     }
 }

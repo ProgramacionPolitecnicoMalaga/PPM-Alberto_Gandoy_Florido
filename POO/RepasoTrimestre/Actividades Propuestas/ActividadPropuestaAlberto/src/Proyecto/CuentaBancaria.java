@@ -7,6 +7,13 @@ public class CuentaBancaria {
     private double saldoContable;
 
     public CuentaBancaria(String numeroDeCuenta, double saldoContable) {
+        if (saldoContable < 0) {
+            try {
+                throw new CuentaBancariaException("El saldo inicial de la cuenta no puede ser negativo.");
+            } catch (CuentaBancariaException e) {
+                e.printStackTrace();
+            }
+        }
         this.numeroDeCuenta = numeroDeCuenta;
         this.saldoContable = saldoContable;
     }
@@ -25,6 +32,32 @@ public class CuentaBancaria {
 
     public void setSaldoContable(double saldoContable) {
         this.saldoContable = saldoContable;
+    }
+
+    public void sumarSaldo(double saldo) {
+        try {
+            if (saldo < 0) {
+                throw new CuentaBancariaException("La cifra no puede ser negativa.");
+            } else {
+                this.saldoContable += saldo;
+            }
+        } catch (CuentaBancariaException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void restarSaldo(double saldo) {
+        try {
+            if (saldo < 0) {
+                throw new CuentaBancariaException("La cifra no puede ser negativa.");
+            } else if (saldoContable < saldo) {
+                throw new CuentaBancariaException();
+            } else {
+                this.saldoContable -= saldo;
+            }
+        } catch (CuentaBancariaException e) {
+            e.printStackTrace();
+        }
     }
 
     @Override

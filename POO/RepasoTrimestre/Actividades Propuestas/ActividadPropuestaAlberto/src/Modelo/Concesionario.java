@@ -1,23 +1,31 @@
 package Modelo;
 
-import Proyecto.Cliente;
-import Proyecto.CompraVenta;
-import Proyecto.ExceptionCliente;
-import Proyecto.Vehiculo;
+import Proyecto.*;
+import SwingUI.VistaCliente.Vista;
 
 import java.util.ArrayList;
 
-public class Concesionario {
+public class Concesionario implements Vendedor{
+    private CuentaBancaria cBConcesionario;
     private ArrayList<Vehiculo> vehiculos;
     private ArrayList<Cliente> clientes;
-    private ArrayList<CompraVenta> compras;
-    private ArrayList<CompraVenta> ventas;
+    private ArrayList<Operacion> compras;
+    private ArrayList<Operacion> ventas;
 
     public Concesionario() {
         compras = new ArrayList<>();
         vehiculos = new ArrayList<>();
         clientes = new ArrayList<>();
         ventas = new ArrayList<>();
+        cBConcesionario = new CuentaBancaria("ES66-0019-0020-9612-3587-8524",50000);
+    }
+
+    public CuentaBancaria getcBConcesionario() {
+        return cBConcesionario;
+    }
+
+    public void setcBConcesionario(CuentaBancaria cBConcesionario) {
+        this.cBConcesionario = cBConcesionario;
     }
 
     public ArrayList<Vehiculo> getVehiculos() {
@@ -36,19 +44,19 @@ public class Concesionario {
         this.clientes = clientes;
     }
 
-    public ArrayList<CompraVenta> getCompras() {
+    public ArrayList<Operacion> getCompras() {
         return compras;
     }
 
-    public void setCompras(ArrayList<CompraVenta> compras) {
+    public void setCompras(ArrayList<Operacion> compras) {
         this.compras = compras;
     }
 
-    public ArrayList<CompraVenta> getVentas() {
+    public ArrayList<Operacion> getVentas() {
         return ventas;
     }
 
-    public void setVentas(ArrayList<CompraVenta> ventas) {
+    public void setVentas(ArrayList<Operacion> ventas) {
         this.ventas = ventas;
     }
 
@@ -64,6 +72,10 @@ public class Concesionario {
         }
     }
 
+    public boolean eliminarVehiculo(Vehiculo vehiculo) {
+            return vehiculos.remove(vehiculo);
+    }
+
     public void introducirNuevoCliente(Cliente cliente) {
         if (clientes.contains(cliente)) {
             try {
@@ -76,45 +88,27 @@ public class Concesionario {
         }
     }
 
-    public ArrayList<CompraVenta> realizarUnaVenta(CompraVenta compraVenta) {
-        if (compraVenta.getCliente().getCuentaBancaria().getSaldoContable() < compraVenta.getPrecio()) {
+    public void introducirNuevaCompra(Operacion compra)  {
+        if (compras.contains(compra)) {
             try {
-                throw new ExceptionCliente("El saldo de la cuenta es inferior al que cuesta el vehículo");
-            } catch (ExceptionCliente exceptionCliente) {
-                exceptionCliente.printStackTrace();
+                throw new Exception("No se pudo realizar la operación.");
+            } catch (Exception e) {
+                e.printStackTrace();
             }
         } else {
-           double venta = compraVenta.getCliente().getCuentaBancaria().getSaldoContable() - compraVenta.getPrecio();
-           compraVenta.getCliente().getCuentaBancaria().setSaldoContable(venta);
-           ventas.add(compraVenta);
-        }
-
-        return ventas;
-    }
-
-    public ArrayList<CompraVenta> realizarUnaCompra(CompraVenta compraVenta) {
-        double compra = compraVenta.getCliente().getCuentaBancaria().getSaldoContable() + compraVenta.getPrecio();
-        compraVenta.getCliente().getCuentaBancaria().setSaldoContable(compra);
-        compras.add(compraVenta);
-        return compras;
-    }
-
-    public void elgirOperacion(CompraVenta compraVenta) {
-     if (compraVenta.getTipo().equals("Venta"))
-         System.out.println(realizarUnaVenta(compraVenta));
-     else if (compraVenta.getTipo().equals("Compra"))
-         System.out.println(realizarUnaCompra(compraVenta));
-    }
-
-    public void mostrarVentas() {
-        for (CompraVenta compraVenta : ventas) {
-            System.out.println(compraVenta);
+            compras.add(compra);
         }
     }
 
-    public void mostrarCompras() {
-        for (CompraVenta compraVenta : compras) {
-            System.out.println(compraVenta);
+    public void introducirNuevaVenta(Operacion venta)  {
+        if (ventas.contains(venta)) {
+            try {
+                throw new Exception("No se pudo realizar la operación.");
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        } else {
+            ventas.add(venta);
         }
     }
 
@@ -122,7 +116,7 @@ public class Concesionario {
         Vehiculo vehiculo = null;
         boolean encontrado = false;
         int i = 0;
-        while (i > vehiculos.size() && !encontrado) {
+        while (i < vehiculos.size() && !encontrado) {
             if (vehiculos.get(i).getMatricula().equals(matricula)) {
                 vehiculo = vehiculos.get(i);
                 encontrado = true;
@@ -136,7 +130,7 @@ public class Concesionario {
         Cliente cliente = null;
         boolean encontrado = false;
         int i = 0;
-        while (i > clientes.size() && !encontrado) {
+        while (i < clientes.size() && !encontrado) {
             if (clientes.get(i).getNif().equals(nif)) {
                 cliente = clientes.get(i);
                 encontrado = true;
@@ -145,12 +139,45 @@ public class Concesionario {
         }
         return cliente;
     }
+
+    @Override
+    public void realizarPago(double cantidad) {
+        cBConcesionario.restarSaldo(cantidad);
+    }
+
+    @Override
+    public void recibirPago(double cantidad) {
+        cBConcesionario.sumarSaldo(cantidad);
+    }
+
+    @Override
+    public void realizarCompra(Cliente cliente, Object objeto, double cantidad) {
+        Vehiculo vehiculo = (Vehiculo)objeto;
+        Operacion compra = new Compra(cliente,vehiculo,cantidad);
+        System.out.println(compra.getCliente());
+        compra.Operar(this,cantidad);
+        introducirNuevaCompra(compra);
+        introducirNuevoVehiculo(vehiculo);
+    }
+
+    @Override
+    public void realizarVenta(Cliente cliente, Object objeto, double cantidad) {
+        Vehiculo vehiculo = (Vehiculo)objeto;
+        Operacion venta = new Venta(cliente,vehiculo,cantidad);
+        venta.Operar(this,cantidad);
+        introducirNuevaVenta(venta);
+        eliminarVehiculo(vehiculo);
+    }
+
+
     @Override
     public String toString() {
         return "Concesionario{" +
-                "vehiculos=" + vehiculos +
+                "cBConcesionario=" + cBConcesionario +
+                ", vehiculos=" + vehiculos +
                 ", clientes=" + clientes +
-                ", compraVenta=" + compras +
+                ", compras=" + compras +
+                ", ventas=" + ventas +
                 '}';
     }
 }

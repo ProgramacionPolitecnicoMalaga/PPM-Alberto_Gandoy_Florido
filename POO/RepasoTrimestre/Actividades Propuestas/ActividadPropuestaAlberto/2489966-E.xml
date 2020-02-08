@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<clientes>
+    <cliente Nif="2489966-E" apellido="Romero" nombre="Fernando">
+        <cuenta IBAN="ES88-987-654-21" saldo="8000.0"/>
+    </cliente>
+</clientes>
+<!--Si creo un cliente sale este, pero cunado creo otro sale este + el otro creado...-->

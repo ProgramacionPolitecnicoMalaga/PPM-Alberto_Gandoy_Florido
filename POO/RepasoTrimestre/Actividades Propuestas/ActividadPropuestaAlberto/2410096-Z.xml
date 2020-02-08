@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<clientes>
+    <cliente Nif="2410096-Z" apellido="Pan" nombre="Alejandro">
+        <cuenta IBAN="ES98-555-444-25" saldo="870.0"/>
+    </cliente>
+</clientes>

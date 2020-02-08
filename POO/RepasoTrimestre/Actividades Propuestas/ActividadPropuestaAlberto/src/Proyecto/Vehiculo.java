@@ -1,21 +1,17 @@
 package Proyecto;
 
-import java.util.Date;
+import java.util.Objects;
 
 public class Vehiculo {
     private String modelo, marca, color, combustion, estado, matricula;
-    private Date fechaFabricacion;
-    private double precio;
 
-    public Vehiculo(String modelo, String marca, String color, String combustion, String estado, String matricula ,Date fechaFabricacion, double precio) {
+    public Vehiculo(String modelo, String marca, String color, String combustion, String estado, String matricula) {
         this.modelo = modelo;
         this.marca = marca;
         this.color = color;
         this.combustion = combustion;
         this.estado = estado;
         this.matricula = matricula;
-        this.fechaFabricacion = fechaFabricacion;
-        this.precio = precio;
     }
 
     public String getModelo() {
@@ -66,32 +62,27 @@ public class Vehiculo {
         this.matricula = matricula;
     }
 
-    public Date getFechaFabricacion() {
-        return fechaFabricacion;
-    }
-
-    public void setFechaFabricacion(Date fechaFabricacion) {
-        this.fechaFabricacion = fechaFabricacion;
-    }
-
-    public double getPrecio() {
-        return precio;
-    }
-
-    public void setPrecio(double precio) {
-        this.precio = precio;
-    }
-
     @Override
     public String toString() {
-        return "Proyecto.Vehiculo{" +
+        return "Vehiculo{" +
                 "modelo='" + modelo + '\'' +
                 ", marca='" + marca + '\'' +
                 ", color='" + color + '\'' +
                 ", combustion='" + combustion + '\'' +
                 ", estado='" + estado + '\'' +
-                ", fechaFabricacion=" + fechaFabricacion +
-                ", precio=" + precio +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Vehiculo vehiculo = (Vehiculo) o;
+        return Objects.equals(matricula, vehiculo.matricula);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(matricula);
     }
 }
