@@ -1,7 +1,6 @@
-package ModeloNegocio;
+package Negocio;
 
 import java.util.ArrayList;
-import java.util.Objects;
 
 public class Mesa {
     private String id;
@@ -11,7 +10,6 @@ public class Mesa {
 
     public Mesa(String id) {
         this.id = id;
-        estado = false;
         productos = new ArrayList<>();
 
     }
@@ -57,18 +55,5 @@ public class Mesa {
                 ", estado=" + estado +
                 ", productos=" + productos +
                 '}';
-    }
-
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        Mesa mesa = (Mesa) o;
-        return Objects.equals(id, mesa.id);
-    }
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(id);
     }
 }
