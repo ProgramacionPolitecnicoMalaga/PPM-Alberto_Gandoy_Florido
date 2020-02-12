@@ -20,10 +20,4 @@ public class Cuenta {
     public void addCuentas(ArrayList<Double> c) {
         cuentas.add(c);
     }
-
-    public void mostrarCuentas() {
-        for (ArrayList<Double> c : cuentas) {
-            System.out.println(c);
-        }
-    }
 }

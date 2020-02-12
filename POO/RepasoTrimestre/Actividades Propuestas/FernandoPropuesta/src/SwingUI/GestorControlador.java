@@ -44,9 +44,8 @@ public class GestorControlador {
 
     public void cobrar() {
         Mesa mesa = cafeteria.buscarAbiertas(vista.getBoxAbiertas());
-        cafeteria.cerrarYcobrar(mesa);
+        double cobro = cafeteria.cerrarYcobrar(mesa);
         vista.removeBoxAbiertas(mesa);
-        vista.mostrarMensaje("La mesa " + mesa.getId() + " cobrada y cerrada");
+        vista.mostrarMensaje("La mesa " + mesa.getId() + " tiene un importe de " + cobro+"€");
     }
-
 }

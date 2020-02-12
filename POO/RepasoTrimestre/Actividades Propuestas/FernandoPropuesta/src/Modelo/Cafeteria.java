@@ -45,8 +45,9 @@ public class Cafeteria {
             abiertas.add(mesa);
     }
 
-    public void addCerrdas(Mesa mesa) {
+    public void addCerradas(Mesa mesa) {
             mesa.setEstado(false);
+            eliminarAbierta(mesa);
             abiertas.add(mesa);
     }
 
@@ -66,13 +67,9 @@ public class Cafeteria {
         abiertas.remove(mesa);
     }
 
-    public void eliminarCerrada(Mesa mesa) {
-        cerradas.remove(mesa);
-    }
-
     public Double cerrarYcobrar(Mesa mesa) {
         eliminarAbierta(mesa);
-        addCerrdas(mesa);
+        addCerradas(mesa);
         double cobro = 0;
         for (Producto producto : mesa.getProductos()) {
             cobro += producto.getPrecio();

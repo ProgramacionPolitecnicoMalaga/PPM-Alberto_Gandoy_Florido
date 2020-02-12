@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="bd72f769-e38e-4655-8171-b901eb7e36ff" name="ServidorJSPalberto" url="http://192.168.1.15">
+        <fileTransfer host="192.168.1.15" port="22" rootFolder="/var/lib/tomcat8/webapps/ROOT" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

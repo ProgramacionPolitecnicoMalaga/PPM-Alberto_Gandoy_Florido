@@ -169,7 +169,6 @@ public class Concesionario implements Vendedor{
         eliminarVehiculo(vehiculo);
     }
 
-
     @Override
     public String toString() {
         return "Concesionario{" +

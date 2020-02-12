@@ -42,17 +42,11 @@ public class Mesa {
         productos.add(producto);
     }
 
-    public void printProductos() {
-        for (Producto producto : productos) {
-            System.out.println(producto);
-        }
-    }
-
     @Override
     public String toString() {
         return "Mesa{" +
-                "id='" + id + '\'' +
-                ", estado=" + estado +
+                "id='" + id + "\n" +
+                ", estado=" + estado + "\n" +
                 ", productos=" + productos +
                 '}';
     }

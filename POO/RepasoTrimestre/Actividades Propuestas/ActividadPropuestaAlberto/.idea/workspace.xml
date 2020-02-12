@@ -2,7 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7646cd58-cafc-42ac-9c4a-ea794be84915" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../FernandoPropuesta/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Actividad_2_Blq_2_Repaso/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Actividad_2_Blq_2_Repaso/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/AppVehiculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/AppVehiculo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Modelo/Concesionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modelo/Concesionario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FernandoPropuesta/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FernandoPropuesta/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FernandoPropuesta/out/production/FernandoPropuesta/Modelo/Cafeteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/../FernandoPropuesta/out/production/FernandoPropuesta/Modelo/Cafeteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FernandoPropuesta/out/production/FernandoPropuesta/Negocio/Cuenta.class" beforeDir="false" afterPath="$PROJECT_DIR$/../FernandoPropuesta/out/production/FernandoPropuesta/Negocio/Cuenta.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FernandoPropuesta/out/production/FernandoPropuesta/Negocio/Mesa.class" beforeDir="false" afterPath="$PROJECT_DIR$/../FernandoPropuesta/out/production/FernandoPropuesta/Negocio/Mesa.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FernandoPropuesta/out/production/FernandoPropuesta/SwingUI/GestorControlador.class" beforeDir="false" afterPath="$PROJECT_DIR$/../FernandoPropuesta/out/production/FernandoPropuesta/SwingUI/GestorControlador.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FernandoPropuesta/out/production/FernandoPropuesta/SwingUI/Vista.class" beforeDir="false" afterPath="$PROJECT_DIR$/../FernandoPropuesta/out/production/FernandoPropuesta/SwingUI/Vista.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FernandoPropuesta/src/Modelo/Cafeteria.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FernandoPropuesta/src/Modelo/Cafeteria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FernandoPropuesta/src/Negocio/Cuenta.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FernandoPropuesta/src/Negocio/Cuenta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FernandoPropuesta/src/Negocio/Mesa.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FernandoPropuesta/src/Negocio/Mesa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FernandoPropuesta/src/SwingUI/GestorControlador.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FernandoPropuesta/src/SwingUI/GestorControlador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FernandoPropuesta/src/SwingUI/Vista.form" beforeDir="false" afterPath="$PROJECT_DIR$/../FernandoPropuesta/src/SwingUI/Vista.form" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +50,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="findjar.last.used.dir" value="$PROJECT_DIR$" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../FactoryMethod" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -87,6 +102,9 @@
       <workItem from="1581166302622" duration="2202000" />
       <workItem from="1581168665995" duration="3408000" />
       <workItem from="1581177311755" duration="728000" />
+      <workItem from="1581329300706" duration="3469000" />
+      <workItem from="1581368357074" duration="28000" />
+      <workItem from="1581420063048" duration="183000" />
     </task>
     <servers />
   </component>
@@ -123,46 +141,48 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="741" y="309" key="#com.intellij.uiDesigner.palette.ComponentItemDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581009053120" />
-    <state x="651" y="171" key="FileChooserDialogImpl" timestamp="1581170299240">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1581368383419">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1580733977925" />
+    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1581368383419" />
     <state x="651" y="171" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1581170299240" />
-    <state width="1877" height="559" key="GridCell.Tab.0.bottom" timestamp="1581168556829">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1323" height="56" key="GridCell.Tab.0.bottom" timestamp="1581420247806">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="444" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580742872649" />
+    <state width="1323" height="56" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581420247806" />
     <state width="1877" height="559" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581168556829" />
-    <state width="1877" height="559" key="GridCell.Tab.0.center" timestamp="1581168556829">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1323" height="56" key="GridCell.Tab.0.center" timestamp="1581420247806">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="444" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1580742872649" />
+    <state width="1323" height="56" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1581420247806" />
     <state width="1877" height="559" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581168556829" />
-    <state width="1877" height="559" key="GridCell.Tab.0.left" timestamp="1581168556829">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1323" height="56" key="GridCell.Tab.0.left" timestamp="1581420247806">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="444" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1580742872649" />
+    <state width="1323" height="56" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1581420247806" />
     <state width="1877" height="559" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581168556829" />
-    <state width="1877" height="559" key="GridCell.Tab.0.right" timestamp="1581168556829">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1323" height="56" key="GridCell.Tab.0.right" timestamp="1581420247806">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="444" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1580742872649" />
+    <state width="1323" height="56" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1581420247806" />
     <state width="1877" height="559" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581168556829" />
     <state x="440" y="95" key="SettingsEditor" timestamp="1581009031061">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="95" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1581009031061" />
-    <state x="1135" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1581177313252">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="759" y="242" key="com.intellij.ide.util.TipDialog" timestamp="1581368356206">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="759" y="242" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1581368356206" />
     <state x="1135" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581177313252" />
     <state x="690" y="287" key="extract.method.dialog" timestamp="1581026443160">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="287" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581026443160" />
-    <state x="0" y="145" key="new project wizard" timestamp="1581170302136">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="0" y="0" key="new project wizard" timestamp="1581333406529">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="0" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1581333406529" />
     <state x="0" y="145" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1581170302136" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1581085371852">
       <screen x="0" y="0" width="1920" height="1040" />

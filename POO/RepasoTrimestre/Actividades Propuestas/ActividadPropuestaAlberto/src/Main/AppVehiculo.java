@@ -15,6 +15,5 @@ public class AppVehiculo {
         ActionListener controlador = new Controlador(gestorControlador);
         vista.setControlador(controlador);
         vista.init();
-
     }
 }

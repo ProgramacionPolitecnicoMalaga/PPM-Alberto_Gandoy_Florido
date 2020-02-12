@@ -1,0 +1,82 @@
+    <html>
+        <head>
+        <title>Alberto Gandoy Florido</title>
+        <script type="text/javascript">
+        function loadAjax(){
+        var username= document.getElementById("username").value;
+        var email= document.getElementById("email").value;
+        var tel= document.getElementById("tel").value;
+        var division= document.getElementById("division").value;
+
+
+        var url="ajax.jsp?username="+username +"&email="+email+"&division="+division+"&tel="+tel;
+        alert(url);
+
+        if(window.XMLHttpRequest){
+
+        request = new XMLHttpRequest();
+
+        }else if(window.ActiveXObject){
+
+        request = new ActiveXObject("Microsoft.XMLHTTP");
+        }
+
+        try{
+        request.onreadystatechange=sendInfo;
+        request.open("POST",url,true);
+        request.send();
+
+        }catch(e){
+        alert("No carga");
+        }
+
+        }
+
+        function sendInfo(){
+        var p =		document.getElementById("print");
+
+        if(request.readyState ==1){
+        var text = request.responseText;
+        p.innerHTML="Espere, por favor";
+        console.log("1");
+        }
+
+        if(request.readyState ==2){
+        var text = request.responseText;
+        console.log("2");
+
+        }
+        if(request.readyState ==3){
+        var text = request.responseText;
+        console.log("3");
+
+        }
+        if(request.readyState ==4){
+        var text = request.responseText;
+        p.innerHTML=" Request Processed  "+text;
+        }
+        }
+        </script>
+        </head>
+        <body>
+        <h1>Formulario</h1>
+        <form action="http://192.168.1.15:8080/servidor.jsp" method="post">
+        <p><label>Nombre</label>
+        <input type="text" name="username" id="username" required="required"></p>
+        <p><label>Correo</label>
+        <input type="email" name="email" id="email" required="required"></p>
+        <p><label>Telefono</label>
+        <input type="tel" name="tel" id="tel" required="required"></p>
+        <p><label>Edad</label>
+        <select name="division" required="required" id="division">
+        <option value="">Select</option>
+        <option value="East">18-25</option>
+        <option value="West">26-40</option>
+        <option value="North">41-60</option>
+        <option value="South">+60</option>
+        </select></p>
+        <button type="button" onclick="loadAjax()">Enviar</button>
+        </form>
+        <p id="print"></p>
+        </body>
+        </html>
