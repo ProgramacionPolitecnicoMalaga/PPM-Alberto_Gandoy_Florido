@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData">
+    <serverData>
+      <paths name="Insti">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/var/lib/tomcat8/webapps/ROOT/empleadosAlberto" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="Prueba">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/var/lib/tomcat8/webapps/ROOT/empleados" local="$PROJECT_DIR$" web="/" />
+            <mapping local="" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

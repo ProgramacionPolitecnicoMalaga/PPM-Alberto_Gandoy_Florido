@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Agregar</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        .sidenav {
+            background-color: #f1f1f1;
+            height: 50%;
+        }
+        @media screen and (max-width: 767px) {
+            .sidenav {
+                height: auto;
+                padding: 15px;
+            }
+            .row.content {height: auto;}
+        }
+        button {
+            height: 50px;
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container-fluid">
+    <div class="row content">
+        <div class="col-sm-3 sidenav">
+            <h4>Base de datos</h4>
+            <ul class="nav nav-pills nav-stacked">
+                <li><a href="empleados.html">Consultar empleados</a></li>
+                <li><a href="eliminar.html">Eliminar empleados</a></li>
+                <li><a href="modificar.html">Modificar empleados</a></li>
+            </ul><br>
+            <div class="input-group">
+                <input type="text" class="form-control mb-2" id="txtNombreAdd" placeholder="Nombre empleado"><br><br>
+                <input type="text" class="form-control mb-2" id="txtApellidosAdd" placeholder="Apellidos empleado"><br><br>
+                <input type="text" class="form-control mb-2" id="txtFechaAdd" placeholder="Fecha empleado"><br><br>
+          <button class="btn btn-default" type="button" id="butAdd" onclick="agregar()">
+            <span class="glyphicon glyphicon-save"></span>
+          </button>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="divResult"></div>
+</body>
+<script>
+    function agregar() {
+        var txtNombre = $("#txtNombreAdd").val();
+        var txtApellidos = $("#txtApellidosAdd").val();
+        var txtFecha = $("#txtFechaAdd").val();
+        $("#butAdd").attr("disabled", true);
+        $.ajax({
+            type: "POST",
+            url: "empleados.jsp",
+            data: {"txtNombre": txtNombre,"txtApellidos" : txtApellidos, "txtFecha" : txtFecha ,"accion": "agregar"}
+        }).done(function (response) {
+            var result = JSON.parse(response);
+            if (result.status == 'ok') {
+                $("#divResult").html(result.html);
+            } else {
+                $("#divResult").html(result.mensaje);
+            }
+            $("#butAdd").attr("disabled", false);
+        });
+    }
+</script>
+</html>

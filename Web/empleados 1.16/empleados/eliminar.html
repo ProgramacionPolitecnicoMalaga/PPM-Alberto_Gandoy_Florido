@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Eliminar</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        .row.content {height: 900px}
+
+        .sidenav {
+            background-color: #f1f1f1;
+            height: 50%;
+        }
+
+        footer {
+            background-color: #555;
+            color: white;
+            padding: 15px;
+        }
+
+        @media screen and (max-width: 767px) {
+            .sidenav {
+                height: auto;
+                padding: 15px;
+            }
+            .row.content {height: auto;}
+        }
+        button {
+            height: 50px;
+            width: 100px;
+        }
+    </style>
+</head>
+<body onload="ponerReadOnly()">
+
+<div class="container-fluid">
+    <div class="row content">
+        <div class="col-sm-3 sidenav">
+            <h4>Eliminar Empleados</h4>
+            <ul class="nav nav-pills nav-stacked">
+                <li><a href="empleados.html">Consultar empleados</a></li>
+                <li><a href="agregar.html">Agregar empleados</a></li>
+                <li><a href="modificar.html">Modificar empleados</a></li>
+            </ul><br>
+            <div class="input-group">
+                <input type="text" class="form-control mb-2" id="txtId" placeholder="Id empleado"><br><br>
+                <input type="text" class="form-control mb-2" id="txtNombre" placeholder="Nombre empleado"><br><br>
+                <input type="text" class="form-control mb-2" id="txtApellidos" placeholder="Apellidos empleado"><br><br>
+                <input type="text" class="form-control mb-2" id="txtFechaN" placeholder="Fecha empleado"><br><br>
+                <button class="btn btn-default" type="button" id="butSearch" onclick="consultar()">
+                    <span class="glyphicon glyphicon-search"></span>
+                </button>
+                <button class="btn btn-default" type="button" id="butRemove" onclick="eliminar()">
+                    <span class="glyphicon glyphicon-trash"></span>
+                </button>
+            </div>
+        </div>
+        <div id="divResult"></div>
+    </div>
+</div>
+</body>
+<script>
+
+    function eliminar() {
+        var txtId = $("#txtId").val();
+        var txtNombre = $("#txtNombreAdd").val();
+        var txtApellidos = $("#txtApellidosAdd").val();
+        var txtFecha = $("#txtFechaAdd").val();
+        $("#butRemove").attr("disabled", true);
+        $.ajax({
+            type: "POST",
+            url: "empleados.jsp",
+            data: {"txtId" : txtId, "txtNombre": txtNombre,"txtApellidos" : txtApellidos, "txtFecha" : txtFecha ,"accion": "eliminar"}
+        }).done(function (response) {
+            var result = JSON.parse(response);
+            if (result.status == 'ok') {
+                $("#divResult").html(result.html);
+            } else {
+                $("#divResult").html(result.mensaje);
+            }
+            $("#butRemove").attr("disabled", false);
+        });
+    }
+    function consultar() {
+        quitarReadOnly();
+        var txtNombre = $("#txtNombre").val();
+        $("#butSearch").attr("disabled", true);
+        $.ajax({
+            type: "POST",
+            url: "empleados.jsp",
+            data: {"txtNombre": txtNombre, "accion": "consulta"}
+        }).done(function (response) {
+            var result = JSON.parse(response);
+            if (result.status == 'ok') {
+                $("#divResult").html(result.html);
+            } else {
+                $("#divResult").html(result.mensaje);
+            }
+            $("#butSearch").attr("disabled", false);
+        });
+    }
+   function quitarReadOnly() {
+        // Eliminamos el atributo de solo lectura
+        $("#txtApellidos").removeAttr("readonly");
+        $("#txtFechaN").removeAttr("readonly");
+        $("#butRemove").attr("disabled", false);
+        // Eliminamos la clase que hace que cambie el color
+       $("#txtApellidos").removeClass("readOnly");
+       $("#txtFechaN").removeClass("readOnly");
+    }
+
+    function ponerReadOnly() {
+        // Ponemos el atributo de solo lectura
+        $("#txtApellidos").attr("readonly","readonly");
+        $("#txtFechaN").attr("readonly","readonly");
+        $("#butRemove").attr("disabled", true);
+
+        // Ponemos una clase para cambiar el color del texto y mostrar que
+        // esta deshabilitado
+        $("#txtApellidos").addClass("readOnly");
+        $("#txtFechaN").addClass("readOnly");
+    }
+</script>
+</html>
