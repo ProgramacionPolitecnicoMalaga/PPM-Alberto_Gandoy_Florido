@@ -1,23 +1,23 @@
 package MVC;
 
-import DAO.Consultas;
+import DAO.Consulta;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class Controlador implements ActionListener {
-    private Consultas consulta;
+    private Consulta consulta;
 
-    public Controlador(Consultas consulta) {
+    public Controlador(Consulta consulta) {
         this.consulta = consulta;
         consulta.mostrarEmpleados();
     }
 
     public void crearVentana() {
         VistaEmpleado vistaEmpleado = new VistaEmpleado();
-        JFrame ventana = new JFrame("Añadir empleado");
-        ControladorEmpleado controladorEmpleado = new ControladorEmpleado(new Consultas(consulta.getVista(),vistaEmpleado));
+        JFrame ventana = new JFrame("Registrar Empleados");
+        ControladorEmpleado controladorEmpleado = new ControladorEmpleado(new Consulta(consulta.getVista(),vistaEmpleado));
         vistaEmpleado.setControladorEmpleado(controladorEmpleado);
         ventana.setDefaultCloseOperation(2);
         ventana.setContentPane(vistaEmpleado);
@@ -32,7 +32,7 @@ public class Controlador implements ActionListener {
             consulta.buscarEmpleado();
         } else if (e.getActionCommand().equals("Cargar")) {
             consulta.mostrarEmpleados();
-        } else if (e.getActionCommand().equals("Add")) {
+        } else if (e.getActionCommand().equals("Insertar")) {
            crearVentana();
         } else if (e.getActionCommand().equals("Borrar")) {
             consulta.eliminarEmpleado();

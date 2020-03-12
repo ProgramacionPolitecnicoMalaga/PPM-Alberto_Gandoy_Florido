@@ -1,10 +1,11 @@
 package Modelo;
 
-//Credenciales BD Mauri:
-// USUARIO: empleadosuser
-//SERVIDOR : vps791421.ovh.net
-//PSW: Perro20
-//BD: Empleados
+/* Credenciales BD Mauri:
+USUARIO: empleadosuser
+SERVIDOR: vps791421.ovh.net
+CONTRASEÑA: Perro20
+BASE DE DATOS: Empleados
+*/
 public class Empleado {
     private int id;
     private String nombre;

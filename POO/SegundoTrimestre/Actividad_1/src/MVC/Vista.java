@@ -8,7 +8,6 @@ import javax.swing.*;
 import javax.swing.border.LineBorder;
 import javax.swing.table.DefaultTableModel;
 import java.awt.*;
-import java.util.List;
 import java.awt.event.ActionListener;
 import java.util.ArrayList;
 
@@ -38,9 +37,9 @@ public class Vista extends JFrame {
         setVisible(true);
     }
 
-    public void cargarColumnas() {
+    public void cargarColores() {
         this.jTable.setModel(modeloTabla);
-        this.jTable.setBorder(new LineBorder(Color.decode("#2F2702")));
+        this.jTable.setBorder(new LineBorder(Color.decode("#FFFFFF")));
         this.jTable.setBackground(Color.decode("#EFD24E"));
     }
 
@@ -59,7 +58,7 @@ public class Vista extends JFrame {
         }
     }
 
-    public void cargarDatosEmpleado(Empleado empleado){
+    public void cargarDatosDeUnEmpleado(Empleado empleado){
         Object[] datosFila = new Object[3];
         datosFila[0] = empleado.getId();
         datosFila[1] = empleado.getNombre();
@@ -88,7 +87,7 @@ public class Vista extends JFrame {
         butBuscar.addActionListener(actionListener);
         butBuscar.setActionCommand("Buscar");
         butAdd.addActionListener(actionListener);
-        butAdd.setActionCommand("Add");
+        butAdd.setActionCommand("Insertar");
         butBorrar.addActionListener(actionListener);
         butBorrar.setActionCommand("Borrar");
         butEditar.addActionListener(actionListener);

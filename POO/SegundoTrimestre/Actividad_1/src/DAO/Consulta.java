@@ -5,15 +5,12 @@ import MVC.VistaEmpleado;
 import Modelo.Empleado;
 import Modelo.EmpleadoDAO;
 
-import java.util.ArrayList;
-import java.util.List;
-
-public class Consultas {
+public class Consulta {
     private Vista vista;
     private VistaEmpleado vistaEmpleado;
     private EmpleadoDAO dao;
 
-    public Consultas(Vista vista, VistaEmpleado vistaEmpleado) {
+    public Consulta(Vista vista, VistaEmpleado vistaEmpleado) {
         this.vista = vista;
         this.vistaEmpleado = vistaEmpleado;
         this.dao = new EmpleadosImp();
@@ -24,15 +21,15 @@ public class Consultas {
     }
 
     public void mostrarEmpleados(){
-        vista.cargarColumnas();
+        vista.cargarColores();
         vista.cargarDatos(dao.mostrarEmpleado());
     }
 
-    public void registrarEmpleado() {
+    public void agregarEmpleado() {
         String nombre = vistaEmpleado.getTxtNombre();
         int edad = Integer.parseInt(vistaEmpleado.getTxtEdad());
-        Empleado empleado = new Empleado(nombre,edad);
-        dao.addEmpleado(empleado);
+        Empleado empleado = new Empleado(nombre, edad);
+        dao.insertarEmpleado(empleado);
         vista.cargarDatos(dao.mostrarEmpleado());
     }
 
@@ -41,7 +38,7 @@ public class Consultas {
         int edad = Integer.parseInt(vista.getTxtEdad());
         Empleado empleado = new Empleado(nombre, edad);
         int id = Integer.parseInt(vista.getTxtID());
-        dao.editarEmpleado(empleado,id);
+        dao.editarEmpleado(empleado, id);
         mostrarEmpleados();
     }
 
@@ -53,8 +50,8 @@ public class Consultas {
 
     public void buscarEmpleado() {
         int idEmpleado = Integer.parseInt(vista.getTxtID());
-        Empleado resBusqueda =  dao.buscarEmpleado(idEmpleado);
+        Empleado empleadoBuscado =  dao.buscarEmpleado(idEmpleado);
         vista.limpiarTabla();
-        vista.cargarDatosEmpleado(resBusqueda);
+        vista.cargarDatosDeUnEmpleado(empleadoBuscado);
     }
 }

@@ -1,23 +1,21 @@
 package MVC;
 
-import DAO.Consultas;
-import Modelo.Empleado;
+import DAO.Consulta;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class ControladorEmpleado implements ActionListener {
-    private Consultas consulta;
+    private Consulta consulta;
 
-    public ControladorEmpleado(Consultas consulta) {
+    public ControladorEmpleado(Consulta consulta) {
         this.consulta = consulta;
     }
 
     @Override
     public void actionPerformed(ActionEvent e) {
         if (e.getActionCommand().equals("AddEmpleado")) {
-            consulta.registrarEmpleado();
-
+            consulta.agregarEmpleado();
         }
     }
 }

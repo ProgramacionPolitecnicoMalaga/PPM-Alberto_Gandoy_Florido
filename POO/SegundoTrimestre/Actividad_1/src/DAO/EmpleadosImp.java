@@ -1,6 +1,5 @@
 package DAO;
 
-import Modelo.ConsultasException;
 import Modelo.Empleado;
 import Modelo.EmpleadoDAO;
 
@@ -9,7 +8,6 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
-import java.util.List;
 
 public class EmpleadosImp implements EmpleadoDAO {
     private ArrayList<Empleado> empleados;
@@ -21,15 +19,10 @@ public class EmpleadosImp implements EmpleadoDAO {
         empleados = new ArrayList<>();
     }
 
-    public ArrayList<Empleado> getEmpleados() {
-        return empleados;
-    }
-
     @Override
-    public boolean addEmpleado(Empleado empleado) {
+    public boolean insertarEmpleado(Empleado empleado) {
         boolean registrado = false;
         String consultaSql = "INSERT INTO  Empleado(nombre,edad) values ('"+empleado.getNombre()+"','"+empleado.getEdad()+"')";
-
 
         try {
             con = Conexion.conexionBD();
@@ -39,8 +32,7 @@ public class EmpleadosImp implements EmpleadoDAO {
             stm.close();
             con.close();
         } catch (SQLException e) {
-            System.out.println("Error: Clase EmpleadoImp, método addEmpleado");
-
+            System.out.println("Error: Clase EmpleadoImp, método insertarEmpleado");
             e.printStackTrace();
         }
         return registrado;
@@ -54,29 +46,30 @@ public class EmpleadosImp implements EmpleadoDAO {
             con = Conexion.conexionBD();
             stm = con.createStatement();
             rs = stm.executeQuery(consultaSql);
-            empleados.removeAll(empleados);
+            empleados.removeAll(empleados);//Por que se duplica la lista.
             while (rs.next()) {
                 Empleado empleado = new Empleado();
-                empleado.setId(rs.getInt(1));
-                empleado.setNombre(rs.getString(2));
-                empleado.setEdad(rs.getInt(3));
+                empleado.setId(rs.getInt("id"));
+                empleado.setNombre(rs.getString("nombre"));
+                empleado.setEdad(rs.getInt("edad"));
                 empleados.add(empleado);
             }
             stm.close();
             rs.close();
             con.close();
         } catch (SQLException e) {
+            System.out.println("Error: Clase EmpleadoImp, método mostrarEmpleado");
             e.printStackTrace();
         }
         return empleados;
     }
 
     @Override
-    public boolean editarEmpleado(Empleado empleado, int idEmp) {
+    public boolean editarEmpleado(Empleado empleado, int idEmpleado) {
         boolean actualizar = false;
+        String  consultaSql = "UPDATE Empleado SET nombre = '"+empleado.getNombre()+"', edad = '"+empleado.getEdad()+"' WHERE id = '"+idEmpleado+"'";
 
-        String  consultaSql = "UPDATE Empleado SET nombre = '"+empleado.getNombre()+"', edad = '"+empleado.getEdad()+"' WHERE id = '"+idEmp+"'";
-          try {
+        try {
             con = Conexion.conexionBD();
             stm = con.createStatement();
             stm.execute(consultaSql);
@@ -89,9 +82,10 @@ public class EmpleadosImp implements EmpleadoDAO {
     }
 
     @Override
-    public boolean eliminarEmpleado(int idEmple) {
+    public boolean eliminarEmpleado(int idEmpleado) {
         boolean eliminar = false;
-        String consultaSql = "DELETE FROM Empleado WHERE id ="+idEmple;
+        String consultaSql = "DELETE FROM Empleado WHERE id ="+idEmpleado;
+
         try {
             con = Conexion.conexionBD();
             stm = con.createStatement();
@@ -107,15 +101,8 @@ public class EmpleadosImp implements EmpleadoDAO {
     @Override
     public Empleado buscarEmpleado(int idEmpleado) {
         Empleado empleado = new Empleado();
-        String consultaSql = "SELECT * FROM Empleado WHERE id LIKE '%" + idEmpleado + "%'";
+        String consultaSql = "SELECT * FROM Empleado WHERE id LIKE '%"+idEmpleado+"%'";
 
-        if (idEmpleado < 0) {
-            try {
-                throw new ConsultasException("El ID del empleado no puede ser menor a 0.");
-            } catch (ConsultasException e) {
-                e.printStackTrace();
-            }
-        } else {
         try {
             con = Conexion.conexionBD();
             stm = con.createStatement();
@@ -133,9 +120,6 @@ public class EmpleadosImp implements EmpleadoDAO {
         } catch (SQLException e) {
             e.printStackTrace();
         }
-    }
         return empleado;
-
     }
 }
-

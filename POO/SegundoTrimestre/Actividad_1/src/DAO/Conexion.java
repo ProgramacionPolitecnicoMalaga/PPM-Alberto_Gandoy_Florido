@@ -16,10 +16,10 @@ public class Conexion {
         try {
             con = DriverManager.getConnection(url, usuario, clave);
             if (con != null) {
-                System.out.println("Conexión establecida,");
+                System.out.println("Conexión establecida. [Conexion]");
             }
         } catch (SQLException e) {
-            System.out.println("Fallo en la conexión.");
+            System.out.println("Fallo en la conexión. [Conexion]");
             e.printStackTrace();
         }
         return con;
