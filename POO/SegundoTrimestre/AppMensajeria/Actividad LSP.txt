@@ -1,0 +1,32 @@
+Consulta primero las referencias del documento "referenciasLSP.txt". Como actividad para trabajar LSP propongo la siguiente. Un sistema de env�o de mensajes entre empleados cuenta con tres tipos de personas y tres tipos de mensajes.
+
+Tipos de mensajes:
+    - Notificaci�n: es un mensaje informativo que una persona como destinatario. Tiene como finalidad ser le�do.
+    - Tarea: se trata de una actividad que la persona destinatario debe realizar. Una tarea debe ser confirmada cuando es completada.
+    - Etiqueta: es un mensaje que no tiene destinatario, ya que puede ser le�do por cualquier persona. Tiene como finalidad compartir una idea o pensamiento con todas las personas.
+
+Tipos de personas:
+    - Manager: puede enviar notificaciones, tareas y etiquetas a otros participantes. Tambi�n puede leer las notificaciones destinadas a �l y las etiquetas.
+    - Participantes: pueden enviar notificaciones y etiquetas. Tambi�n pueden leer las notificaciones y tareas destinadas a �l y las etiquetas.
+    - Invitados: no pueden enviar mensajes. S�lo pueden leer las etiquetas.
+
+La clase "Persona" incluye un m�todo "escribirMensaje" con la siguiente signatura:
+
+    escribirMensaje(String texto, int tipoMensaje, Persona destinatario)
+
+La misi�n de este m�todo es crear un mensaje que pueda ser enviado. 
+
+A) �Qu� problema tiene este enunciado respecto a LSP?
+El problema está en la clase Persona, ya que un Manager, un participante y un invitado tienen distintos privilegios
+a la hora de escribir un mensaje.
+Ejemplo -----> un manager puede escribir una tarea, pero los participantes e invitados no pueden.
+B) Se desea una aplicaci�n llamada "AppMensajeria" que respete LSP*, que permita enviar y consultar mensajes entre diferentes Personas.
+
+------------
+* No vale hacer esto, porque viola LSP (conocer los detalles de la subclase)
+    if (persona instanceof Manager){ ... }
+    else if (persona instanceof Participante){ ... }
+    else if (persona instanceof Invitado){ ... }
+------------
+
+Nota: consulta https://www.tomdalling.com/blog/software-design/solid-class-design-the-liskov-substitution-principle/
