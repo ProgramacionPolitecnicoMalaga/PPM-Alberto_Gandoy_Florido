@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="725b8416-8e25-457e-987e-7110246ea6d1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b381405f-615e-4ceb-bf71-8295e50bf208.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b381405f-615e-4ceb-bf71-8295e50bf208.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,24 +26,6 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="MauriBD" type="feb32156:DbDataSourceImpl" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="MauriBD" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="MauriBD" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="Empleados: schema" type="76f4a085:MysqlImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="MauriBD" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="Empleados: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="Empleado: table" type="285a2a93:MysqlImplModel$Table" />
-      </path>
     </expand>
     <select />
   </component>
@@ -56,6 +38,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\Alberto\Desktop\PPM-Alberto_Gandoy_Florido\POO\SegundoTrimestre\Actividad_1\.idea" />
+      </set>
+    </option>
   </component>
   <component name="ProjectId" id="1YtLMFuylprPZoSSulGbU1DHgvA" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -119,6 +108,12 @@
       <workItem from="1584708800064" duration="4129000" />
       <workItem from="1584720927063" duration="2142000" />
       <workItem from="1584791037670" duration="2640000" />
+      <workItem from="1584806655843" duration="1667000" />
+      <workItem from="1584955783024" duration="45000" />
+      <workItem from="1584956450686" duration="408000" />
+      <workItem from="1584959143328" duration="1664000" />
+      <workItem from="1584963142985" duration="1211000" />
+      <workItem from="1584981479798" duration="727000" />
     </task>
     <servers />
   </component>
@@ -126,11 +121,11 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="734" y="15" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583871342466">
+    <state x="87" y="96" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584806683387">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="444" y="45" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1583757645824" />
-    <state x="734" y="15" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583871342466" />
+    <state x="87" y="96" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584806683387" />
     <state x="205" y="119" key="#com.intellij.ide.util.MemberChooser" timestamp="1583871087028">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -154,26 +149,26 @@
     <state x="552" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1583913166434" />
     <state x="-1144" y="-92" key="FileChooserDialogImpl/0.0.1920.1040/-1920.-242.1920.1040@-1920.-242.1920.1040" timestamp="1584721102525" />
     <state x="776" y="150" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584707856153" />
-    <state width="914" height="261" key="GridCell.Tab.0.bottom" timestamp="1584802144496">
+    <state width="1877" height="261" key="GridCell.Tab.0.bottom" timestamp="1584956858534">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="180" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583999194860" />
-    <state width="914" height="261" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584802144496" />
-    <state width="914" height="261" key="GridCell.Tab.0.center" timestamp="1584802144496">
+    <state width="1877" height="261" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584956858534" />
+    <state width="1877" height="261" key="GridCell.Tab.0.center" timestamp="1584956858533">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="180" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583999194860" />
-    <state width="914" height="261" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584802144496" />
-    <state width="914" height="261" key="GridCell.Tab.0.left" timestamp="1584802144495">
+    <state width="1877" height="261" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584956858533" />
+    <state width="1877" height="261" key="GridCell.Tab.0.left" timestamp="1584956858533">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="180" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583999194860" />
-    <state width="914" height="261" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584802144495" />
-    <state width="914" height="261" key="GridCell.Tab.0.right" timestamp="1584802144496">
+    <state width="1877" height="261" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584956858533" />
+    <state width="1877" height="261" key="GridCell.Tab.0.right" timestamp="1584956858533">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="180" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583999194860" />
-    <state width="914" height="261" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584802144496" />
+    <state width="1877" height="261" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584956858533" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1583866717047">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -198,10 +193,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="326" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1583757749391" />
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1583913158214">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="533" y="269" key="com.intellij.ide.util.TipDialog" timestamp="1584892568047">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1583913158214" />
+    <state x="533" y="269" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584892568047" />
     <state x="0" y="0" key="new project wizard" timestamp="1583846464621">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
