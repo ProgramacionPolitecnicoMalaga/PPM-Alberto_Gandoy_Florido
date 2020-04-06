@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f9738fd-20da-46b1-b3d4-863638efe6a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2a326735-3472-47b0-933f-8cb6d3b4148e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/2a326735-3472-47b0-933f-8cb6d3b4148e.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ActividadFinal/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ActividadFinal/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ActividadFinal/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ActividadFinal/out/production/ActividadFinal/META-INF/ActividadFinal.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ActividadFinal/out/production/ActividadFinal/Vista/Vista.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ActividadFinal/out/production/ActividadFinal/Vista/Vista.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ActividadFinal/src/Vista/Vista.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ActividadFinal/src/Vista/Vista.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +80,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="171" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="359" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
@@ -86,7 +88,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CustomReader" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ActividadFinal" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -152,6 +154,8 @@
       <workItem from="1584955787757" duration="23897000" />
       <workItem from="1585671906961" duration="5000" />
       <workItem from="1585739007732" duration="3008000" />
+      <workItem from="1585843868273" duration="42000" />
+      <workItem from="1586007894249" duration="7000" />
     </task>
     <servers />
   </component>
@@ -167,10 +171,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1245" y="240" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1584985578997" />
-    <state x="226" y="266" key="FileChooserDialogImpl" timestamp="1585762506836">
+    <state x="226" y="266" key="FileChooserDialogImpl" timestamp="1585843914073">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="226" y="266" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1585762506836" />
+    <state x="226" y="266" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1585843914073" />
     <state width="914" height="301" key="GridCell.Tab.0.bottom" timestamp="1585762595600">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -219,10 +223,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1156" y="166" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584958730690" />
-    <state x="1311" y="498" key="com.intellij.ide.util.TipDialog" timestamp="1584955811958">
+    <state x="1311" y="498" key="com.intellij.ide.util.TipDialog" timestamp="1585843875375">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1311" y="498" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584955811958" />
+    <state x="1311" y="498" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585843875375" />
     <state x="0" y="145" key="new project wizard" timestamp="1585762513800">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

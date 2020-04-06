@@ -29,9 +29,9 @@ public class Vista extends JFrame {
         defaultListModelNicks = new DefaultListModel<>();
         usuarioPanel = new UsuarioPanel();
         Toolkit toolkit = Toolkit.getDefaultToolkit();
+        this.setPreferredSize(new Dimension(300,  toolkit.getScreenSize().height - 200));
         this.jListDatos.updateUI();
         this.jListNicks.updateUI();
-        this.setPreferredSize(new Dimension(300,  toolkit.getScreenSize().height - 200));
         this.setMinimumSize(new Dimension(300,200));
         jListDatos.setModel(defaultListModelDatos);
         jListDatos.setCellRenderer(usuarioPanel);
@@ -62,8 +62,8 @@ public class Vista extends JFrame {
 
     public void setLabelsPaneIcon(boolean resultado) {
         usuarioPanel.setLabelsPassword(resultado);
-
     }
+
     public void cargarDatosUsuario(Usuario usuario) {
         defaultListModelDatos.removeAllElements();//"actualizamos" jLista cada vez que realizamos operaciones.
         defaultListModelDatos.addElement(usuario);
