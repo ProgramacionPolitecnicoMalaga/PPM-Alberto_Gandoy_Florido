@@ -1,7 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="244bbc96-6c93-43b3-8306-4fddcca18a39" name="Default Changelist" comment="" />
+    <list default="true" id="244bbc96-6c93-43b3-8306-4fddcca18a39" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/HtmlImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/TextImple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AlbertoGF/Actividad_2_Bloque_2_Refactorizada_MVC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../AlbertoGF/Actividad_2_Bloque_2_Refactorizada_MVC/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Acitividad_1_Tercer_Trimestre/Factory/Factory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Acitividad_1_Tercer_Trimestre/Factory/Factory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Acitividad_1_Tercer_Trimestre/Factory/GeneradorFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Acitividad_1_Tercer_Trimestre/Factory/LectorFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Acitividad_1_Tercer_Trimestre/Factory/LectorFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Acitividad_1_Tercer_Trimestre/GenerarDocumento/Generador.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Acitividad_1_Tercer_Trimestre/GenerarDocumento/Generador.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Acitividad_1_Tercer_Trimestre/GenerarDocumento/GenerarHTML.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Acitividad_1_Tercer_Trimestre/GenerarDocumento/GenerarHTML.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Acitividad_1_Tercer_Trimestre/GenerarDocumento/GenerarTEXT.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Acitividad_1_Tercer_Trimestre/GenerarDocumento/GenerarTEXT.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Acitividad_1_Tercer_Trimestre/Lector/LectorHTML.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Acitividad_1_Tercer_Trimestre/Lector/LectorTEXT.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Acitividad_1_Tercer_Trimestre/Lector/LectorXML.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Acitividad_1_Tercer_Trimestre/Lector/LectorXML.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Acitividad_1_Tercer_Trimestre/Main/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Acitividad_1_Tercer_Trimestre/Main/Demo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Acitividad_1_Tercer_Trimestre/Modelo/Empadronados.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Acitividad_1_Tercer_Trimestre/Modelo/FileException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Factory/Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factory/Factory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Factory/GeneradorFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Factory/LectorFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factory/LectorFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GenerarDocumento/Generador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GenerarDocumento/Generador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GenerarDocumento/GenerarHTML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GenerarDocumento/GenerarHTML.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GenerarDocumento/GenerarTEXT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GenerarDocumento/GenerarTEXT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lector/LectorHTML.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lector/LectorTEXT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lector/LectorXML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lector/LectorXML.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Modelo/Empadronados.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Modelo/FileException.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +45,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
   <component name="ProjectId" id="1aU6080D6PIT1veCUlXO78C4TBh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -23,9 +57,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/JAR" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Actividad1FactoryMethod" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -61,6 +96,8 @@
       <option name="presentableId" value="Default" />
       <updated>1586777602486</updated>
       <workItem from="1586777609787" duration="17125000" />
+      <workItem from="1586804546412" duration="2364000" />
+      <workItem from="1586807614931" duration="82000" />
     </task>
     <servers />
   </component>
@@ -68,38 +105,38 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="237" key="#com.intellij.ide.util.MemberChooser" timestamp="1586800115717">
+    <state x="765" y="237" key="#com.intellij.ide.util.MemberChooser" timestamp="1586807144589">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="237" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1920.-242.1920.1040@0.0.1920.1040" timestamp="1586800115717" />
+    <state x="765" y="237" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1920.-242.1920.1040@0.0.1920.1040" timestamp="1586807144589" />
     <state x="605" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1586799890081">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="605" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040/-1920.-242.1920.1040@0.0.1920.1040" timestamp="1586799890081" />
-    <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586799912063">
+    <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586807647741">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.-242.1920.1040@0.0.1920.1040" timestamp="1586799912063" />
-    <state x="740" y="276" key="FileChooserDialogImpl" timestamp="1586793889551">
+    <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.-242.1920.1040@0.0.1920.1040" timestamp="1586807647741" />
+    <state x="740" y="276" key="FileChooserDialogImpl" timestamp="1586804744480">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040/-1920.-242.1920.1040@0.0.1920.1040" timestamp="1586793889551" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1586803778003">
+    <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040/-1920.-242.1920.1040@0.0.1920.1040" timestamp="1586804744480" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1586807696834">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-242.1920.1040@0.0.1920.1040" timestamp="1586803778003" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1586803778003">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-242.1920.1040@0.0.1920.1040" timestamp="1586807696834" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1586807696833">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-242.1920.1040@0.0.1920.1040" timestamp="1586803778003" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1586803778003">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-242.1920.1040@0.0.1920.1040" timestamp="1586807696833" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1586807696833">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-242.1920.1040@0.0.1920.1040" timestamp="1586803778003" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1586803778003">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-242.1920.1040@0.0.1920.1040" timestamp="1586807696833" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1586807696834">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-242.1920.1040@0.0.1920.1040" timestamp="1586803778003" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-242.1920.1040@0.0.1920.1040" timestamp="1586807696834" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1586803778003">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

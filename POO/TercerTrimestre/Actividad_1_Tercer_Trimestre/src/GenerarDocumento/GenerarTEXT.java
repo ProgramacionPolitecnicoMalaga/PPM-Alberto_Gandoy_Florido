@@ -1,45 +1,36 @@
 package GenerarDocumento;
 
 import Lector.LectorXML;
-import Modelo.Empadronados;
-import Modelo.FileException;
+import org.w3c.dom.NamedNodeMap;
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
 
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
+
 
 public class GenerarTEXT implements Generador{
-
     private LectorXML lectorXML;
 
-    public GenerarTEXT(String fichero) {
-        lectorXML = new LectorXML("Nacionalidades.xml");
-        try {
-            generarDocumentos(fichero);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+    public GenerarTEXT() {
+        lectorXML = new LectorXML();
     }
 
     @Override
-    public void generarDocumentos(String fichero) throws IOException {
-        String ruta = "./ArchivosGenerados/"+fichero+".txt";
-        String contenido = lectorXML.leerXML(new Empadronados());
-        File file = new File(ruta);
-
-        if (!file.exists()) {
-            file.createNewFile();
-            FileWriter fw = new FileWriter(file);
-            BufferedWriter bw = new BufferedWriter(fw);
-            bw.write(contenido);
-            bw.close();
-        } else {
-            try {
-                throw new FileException("El fichero de texto ya existe.");
-            } catch (FileException e) {
-                e.printStackTrace();
+    public void generador() {
+        try {
+            NodeList poblaciones = lectorXML.getNodelist();
+            System.out.println("Listado de empadronamientos:\n");
+            if (poblaciones != null) {
+                for (int i = 0; i < poblaciones.getLength(); i++) {
+                    Node poblacion = poblaciones.item(i);
+                    NamedNodeMap atributosPoblacion = poblacion.getAttributes();
+                    String año = atributosPoblacion.getNamedItem("Año").getTextContent();
+                    String nacionalidad = atributosPoblacion.getNamedItem("Nacionalidad").getTextContent();
+                    String empadronados = atributosPoblacion.getNamedItem("Número_de_empadronados").getTextContent();
+                    System.out.println("El total de empadronados en " + año + " procedentes de " + nacionalidad + " fue de " + empadronados + " persona/s.");
+                }
             }
+        } catch (Exception ex) {
+            ex.printStackTrace();
         }
     }
 }

@@ -1,38 +1,36 @@
 package GenerarDocumento;
 
-import Lector.LectorXML;
-import Modelo.Empadronados;
 
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.PrintWriter;
+import Lector.LectorXML;
+import org.w3c.dom.NamedNodeMap;
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
 
 public class GenerarHTML implements Generador {
-
     private LectorXML lectorXML;
 
-    public GenerarHTML(String fichero) {
-        lectorXML = new LectorXML("Nacionalidades.xml");
-        try {
-            generarDocumentos(fichero);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+    public GenerarHTML() {
+        lectorXML = new LectorXML();
     }
 
     @Override
-    public void generarDocumentos(String fichero) throws IOException {
-        FileWriter fw = null;
-        PrintWriter pw = null;
-
-        fw = new FileWriter("./ArchivosGenerados/"+fichero+".html");
-        pw = new PrintWriter(fw);
-
-        pw.print("<head><title>Documento HTML</title></head>");
-        pw.print("<table>");
-        pw.print("<tr>"+"<th>"+lectorXML.leerXML(new Empadronados())+"</th>"+"/<tr>");
-        pw.print("</table>"+"\n"+"</body>"+"\n"+"</html>");
-        pw.close();
-
+    public void generador() {
+        try {
+            NodeList poblaciones = lectorXML.getNodelist();
+            System.out.println("<table>");
+            if (poblaciones != null) {
+                for (int i = 0; i < poblaciones.getLength(); i++) {
+                    Node poblacion = poblaciones.item(i);
+                    NamedNodeMap atributosPoblacion = poblacion.getAttributes();
+                    String año = atributosPoblacion.getNamedItem("Año").getTextContent();
+                    String nacionalidad = atributosPoblacion.getNamedItem("Nacionalidad").getTextContent();
+                    String empadronados = atributosPoblacion.getNamedItem("Número_de_empadronados").getTextContent();
+                    System.out.println("\t<tr>\n \t\t<th>" + nacionalidad + "</th><th>" + año + "</th><th>" + empadronados + "</th>\n\t</tr>");
+                }
+            }
+            System.out.println("</table>");
+        } catch (Exception ex) {
+            ex.printStackTrace();
+        }
     }
 }
