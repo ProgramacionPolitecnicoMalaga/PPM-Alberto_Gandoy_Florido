@@ -9,7 +9,7 @@ public class LectorFactory {
         String checkedFile = fileName;
         if (!fileNotFound(fileName)){
             throw new FileNotFoundException("Archivo no encontrado");
-        }else{
+        } else {
             switch (getFileExtension(checkedFile)){
                 case "xml": return new LecturaXML(checkedFile);
                 case "csv": return new LecturaCSV();

@@ -1,8 +1,136 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dfd95587-6970-4af8-99b6-b1fa0f460416" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="dfd95587-6970-4af8-99b6-b1fa0f460416" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ED/MultiModulos/CalculadoraMultimodulo/CalculadoraMultimodulo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MiconexionJSP/MiconexionJSP.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PrimerTrimestre/RepasoPreExamen/RepasoPreExamen.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JSP.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/.idea/libraries/gson_2_8_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/.idea/libraries/jdk7_2_1_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/JAR/gson-2.8.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/JAR/jdk7-2.1.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/JAR/mysql-connector-java-8.0.16.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/JAR/protobuf-java-3.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/MiconexionJSP.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/out/production/MiconexionJSP/App/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/out/production/MiconexionJSP/Conexion/Conexion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/out/production/MiconexionJSP/Consulta/Consultas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/out/production/MiconexionJSP/LoggerLoggin/Control.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/out/production/MiconexionJSP/MVC/Controlador.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/out/production/MiconexionJSP/MVC/Vista.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/out/production/MiconexionJSP/Modelo/Empleado.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/out/production/MiconexionJSP/Modelo/IEmpleadoDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/out/production/MiconexionJSP/NegocioDAO/EmpleadoDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/out/production/MiconexionJSP/TestConexion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/out/production/MiconexionJSP/com/intellij/uiDesigner/core/AbstractLayout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/out/production/MiconexionJSP/com/intellij/uiDesigner/core/DimensionInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/out/production/MiconexionJSP/com/intellij/uiDesigner/core/GridConstraints.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/out/production/MiconexionJSP/com/intellij/uiDesigner/core/GridLayoutManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/out/production/MiconexionJSP/com/intellij/uiDesigner/core/HorizontalInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/out/production/MiconexionJSP/com/intellij/uiDesigner/core/LayoutState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/out/production/MiconexionJSP/com/intellij/uiDesigner/core/Spacer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/out/production/MiconexionJSP/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/out/production/MiconexionJSP/com/intellij/uiDesigner/core/SupportCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/out/production/MiconexionJSP/com/intellij/uiDesigner/core/Util.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/out/production/MiconexionJSP/com/intellij/uiDesigner/core/VerticalInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/src/App/Demo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/src/Conexion/Conexion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/src/Consulta/Consultas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/src/LoggerLoggin/Control.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/src/MVC/Controlador.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/src/MVC/Vista.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/src/MVC/Vista.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/src/Modelo/Empleado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/src/Modelo/IEmpleadoDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/src/NegocioDAO/EmpleadoDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/src/TestConexion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/ActividadMultiModulo/1.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/Calculadora/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/Calculadora/src/main/java/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/Calculadora/target/Calculadora-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/Calculadora/target/classes/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/Calculadora/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/Calculadora/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/Calculadora/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/Calculadora/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/CalculadoraMultimodulo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/Division/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/Division/src/main/java/Division.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/Division/target/Division-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/Division/target/classes/Division.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/Division/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/Division/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/Division/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/Division/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/Multiplicacion/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/Multiplicacion/src/main/java/Multiplicacion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/Multiplicacion/target/Multiplicacion-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/Multiplicacion/target/classes/Multiplicacion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/Multiplicacion/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/Multiplicacion/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/Multiplicacion/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/Multiplicacion/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/Resta/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/Resta/src/main/java/Resta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/Resta/target/Resta-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/Resta/target/classes/Resta.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/Resta/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/Resta/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/Resta/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/Resta/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/Suma/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/Suma/src/main/java/Suma.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/Suma/target/Suma-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/Suma/target/classes/Suma.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/Suma/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/Suma/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/Suma/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/Suma/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/capturasMultimodulos/1.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/capturasMultimodulos/2.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/capturasMultimodulos/3.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/capturasMultimodulos/4.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeerEscribir/LectorFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeerEscribir/LectorFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RepasoPreExamen/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RepasoPreExamen/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RepasoPreExamen/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RepasoPreExamen/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RepasoPreExamen/DatosEmpleados.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RepasoPreExamen/DatosProyecto.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RepasoPreExamen/RepasoPreExamen.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RepasoPreExamen/src/Actividad.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RepasoPreExamen/src/Administrador.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RepasoPreExamen/src/Aplicacion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RepasoPreExamen/src/Empleado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RepasoPreExamen/src/JefeDeOperacion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RepasoPreExamen/src/JefeDeProyecto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RepasoPreExamen/src/Nomina.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RepasoPreExamen/src/Productividad.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RepasoPreExamen/src/Programador.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RepasoPreExamen/src/Proyecto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RepasoPreExamen/src/Tecnico.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RepasoPreExamen/src/XMLGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RepasoPreExamen/src/XMLGeneratorAtr.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SegundoTrimestre/ActividadFinal/.idea/dataSources/23455959-2c91-4668-b805-fee1aa979d7c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../SegundoTrimestre/ActividadFinal/.idea/dataSources/23455959-2c91-4668-b805-fee1aa979d7c.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SegundoTrimestre/ActividadFinal/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../SegundoTrimestre/ActividadFinal/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SegundoTrimestre/Customer/.idea/dataSources/2a326735-3472-47b0-933f-8cb6d3b4148e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../SegundoTrimestre/Customer/.idea/dataSources/2a326735-3472-47b0-933f-8cb6d3b4148e.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SegundoTrimestre/Customer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../SegundoTrimestre/Customer/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,9 +149,21 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
   <component name="ProjectId" id="1WNeH5BBaBpfXZ1zTofe9XZH64a" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH" value="136" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -39,18 +179,6 @@
       <recent name="C:\Users\Alberto\Desktop\Actividad_2_Bloque_2_Refactorizada_MVC\src\MVC" />
       <recent name="C:\Users\Alberto\IdeaProjects\Actividad_2_Bloque_2_Refactorizada_MVC\src" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -76,7 +204,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578927291671</updated>
+      <workItem from="1586778062445" duration="9748000" />
+      <workItem from="1586802427494" duration="654000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
 </project>
