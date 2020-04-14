@@ -17,16 +17,16 @@ public class GenerarTEXT implements Generador{
     @Override
     public void generador() {
         try {
-            NodeList poblaciones = lectorXML.getNodelist();
+            NodeList nodeList = lectorXML.lecturaXML();
             System.out.println("Listado de empadronamientos:\n");
-            if (poblaciones != null) {
-                for (int i = 0; i < poblaciones.getLength(); i++) {
-                    Node poblacion = poblaciones.item(i);
-                    NamedNodeMap atributosPoblacion = poblacion.getAttributes();
-                    String año = atributosPoblacion.getNamedItem("Año").getTextContent();
-                    String nacionalidad = atributosPoblacion.getNamedItem("Nacionalidad").getTextContent();
-                    String empadronados = atributosPoblacion.getNamedItem("Número_de_empadronados").getTextContent();
-                    System.out.println("El total de empadronados en " + año + " procedentes de " + nacionalidad + " fue de " + empadronados + " persona/s.");
+            if (nodeList != null) {
+                for (int i = 0; i < nodeList.getLength(); i++) {
+                    Node node = nodeList.item(i);
+                    NamedNodeMap nodeMap = node.getAttributes();
+                    String año = nodeMap.getNamedItem("Año").getTextContent();
+                    String nacionalidad = nodeMap.getNamedItem("Nacionalidad").getTextContent();
+                    String numEmpadronados = nodeMap.getNamedItem("Número_de_empadronados").getTextContent();
+                    System.out.println("El total de empadronados en " + año + " procedentes de " + nacionalidad + " fue de " + numEmpadronados + " persona/s.");
                 }
             }
         } catch (Exception ex) {

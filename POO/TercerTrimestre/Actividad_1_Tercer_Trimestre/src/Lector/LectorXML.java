@@ -10,12 +10,11 @@ import javax.xml.xpath.XPathFactory;
 import java.io.File;
 
 public class LectorXML {
+    private NodeList nodeList = null;
 
-    public NodeList getNodelist() {
-        NodeList nodeList = null;
+    public NodeList lecturaXML() {
         try {
-            String dir = System.getProperty("user.dir");
-            File inputFile = new File( dir + File.separator + "Nacionalidades.xml");
+            File inputFile = new File(  System.getProperty("user.dir") + File.separator + "Nacionalidades.xml");
             DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
             DocumentBuilder docBuilder = dbFactory.newDocumentBuilder();
             Document doc = docBuilder.parse(inputFile);
