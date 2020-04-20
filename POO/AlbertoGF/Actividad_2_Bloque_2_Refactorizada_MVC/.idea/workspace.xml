@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfd95587-6970-4af8-99b6-b1fa0f460416" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../SegundoTrimestre/CRUD_Refactorizado/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../SegundoTrimestre/ActividadFinal/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../SegundoTrimestre/ActividadFinal/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TercerTrimestre/Actividad_1_Tercer_Trimestre/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../TercerTrimestre/Actividad_1_Tercer_Trimestre/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SegundoTrimestre/CRUD_Refactorizado/.idea/dataSources/39637f6d-444b-4f89-a736-fbca68ffc18b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../SegundoTrimestre/CRUD_Refactorizado/.idea/dataSources/39637f6d-444b-4f89-a736-fbca68ffc18b.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SegundoTrimestre/CRUD_Refactorizado/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../SegundoTrimestre/CRUD_Refactorizado/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,6 +85,7 @@
       <workItem from="1586802427494" duration="654000" />
       <workItem from="1586804515350" duration="29000" />
       <workItem from="1586858930386" duration="17000" />
+      <workItem from="1587232560588" duration="603000" />
     </task>
     <servers />
   </component>
