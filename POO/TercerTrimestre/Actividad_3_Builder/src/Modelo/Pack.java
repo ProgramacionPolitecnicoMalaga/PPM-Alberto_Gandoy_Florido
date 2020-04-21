@@ -58,14 +58,14 @@ public class Pack {
     @Override
     public String toString() {
         String packs = tipoDePack + "\n";
-        packs += (desayuno)? "- con salsa chile\n":"";
-        packs += (almuerzo)? "- con salsa chile\n":"";
-        packs += (cena)? "- con salsa chile\n":"";
-        packs += (camaAdicional)? "- con salsa chile\n":"";
-        packs += (paqueteAtracciones)? "- con salsa chile\n":"";
-        packs += (cursoKiteSurf)? "- con salsa chile\n":"";
-        packs += (actividadesInfantiles)? "- con salsa chile\n":"";
-        packs += (cinePlaya)? "- con salsa chile\n":"";
+        packs += (desayuno)? "- 1\n":"";
+        packs += (almuerzo)? "- 2\n":"";
+        packs += (cena)? "- 3\n":"";
+        packs += (camaAdicional)? "- 4\n":"";
+        packs += (paqueteAtracciones)? "- 5\n":"";
+        packs += (cursoKiteSurf)? "- 6\n":"";
+        packs += (actividadesInfantiles)? "- 7\n":"";
+        packs += (cinePlaya)? "- 8\n":"";
         return packs;
     }
 }
