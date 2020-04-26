@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="b90ca8f8-9f4b-4ada-9cb1-134cc3beb2c8" name="FibonacciVPS" url="http://51.68.123.197">
+        <fileTransfer host="51.68.123.197" port="22" rootFolder="/opt/tomcat/latest/webapps" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
