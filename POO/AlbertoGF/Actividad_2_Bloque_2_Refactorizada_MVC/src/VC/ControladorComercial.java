@@ -26,7 +26,6 @@ public class ControladorComercial implements ActionListener {
             String descripcion = vistaComercial.getTxtVenta();
             Calendar calendario = vistaComercial.getFecha();
             VentaMensual ventaMensual = comercial.buscarVentaMensual(calendario);
-            System.out.println("LLLLLL" + ventaMensual);
             if(ventaMensual == null){
                 System.out.println("entra al null");
                 ventaMensual = new VentaMensual();
@@ -45,9 +44,8 @@ public class ControladorComercial implements ActionListener {
             }
         }else if (e.getActionCommand().equals("Mostrar")) {
                Calendar calendario = vistaComercial.getFecha();
-               ArrayList<VentaMensual> ventasMensuales = comercial.buscarVentasAnuales(calendario);
-            System.out.println(ventasMensuales.size());
-               vistaComercial.mostrarVentasAnuales(ventasMensuales, calendario);
+             //  ArrayList<VentaMensual> ventasMensuales = comercial.buscarVentasAnuales(calendario);
+             //  vistaComercial.mostrarVentasAnuales(ventasMensuales, calendario);
         }
     }
 }

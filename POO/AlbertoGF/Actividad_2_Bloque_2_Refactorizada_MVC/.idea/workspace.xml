@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfd95587-6970-4af8-99b6-b1fa0f460416" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../SegundoTrimestre/CRUD_Refactorizado/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VC/ControladorComercial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VC/ControladorComercial.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../SegundoTrimestre/ActividadFinal/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../SegundoTrimestre/ActividadFinal/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SegundoTrimestre/CRUD_Refactorizado/.idea/dataSources/39637f6d-444b-4f89-a736-fbca68ffc18b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../SegundoTrimestre/CRUD_Refactorizado/.idea/dataSources/39637f6d-444b-4f89-a736-fbca68ffc18b.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SegundoTrimestre/CRUD_Refactorizado/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../SegundoTrimestre/CRUD_Refactorizado/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +84,9 @@
       <workItem from="1586804515350" duration="29000" />
       <workItem from="1586858930386" duration="17000" />
       <workItem from="1587232560588" duration="603000" />
+      <workItem from="1587632920342" duration="605000" />
+      <workItem from="1587728554606" duration="131000" />
+      <workItem from="1587736690166" duration="114000" />
     </task>
     <servers />
   </component>
@@ -93,13 +94,17 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="276" key="FileChooserDialogImpl" timestamp="1586804543522">
+    <state x="740" y="276" key="FileChooserDialogImpl" timestamp="1587736802842">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040/-1920.-242.1920.1040@0.0.1920.1040" timestamp="1586804543522" />
-    <state x="655" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1586804530903">
+    <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040/-1920.-242.1920.1040@0.0.1920.1040" timestamp="1587736802842" />
+    <state x="655" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1587736734365">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="655" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.-242.1920.1040@0.0.1920.1040" timestamp="1586804530903" />
+    <state x="655" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.-242.1920.1040@0.0.1920.1040" timestamp="1587736734365" />
+    <state x="342" y="215" key="new project wizard" timestamp="1587736803929">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="342" y="215" key="new project wizard/0.0.1920.1040/-1920.-242.1920.1040@0.0.1920.1040" timestamp="1587736803929" />
   </component>
 </project>

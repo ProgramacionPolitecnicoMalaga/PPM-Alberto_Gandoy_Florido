@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2514c162-6f95-4819-8545-a02c29164816" name="Default Changelist" comment="" />
+    <list default="true" id="2514c162-6f95-4819-8545-a02c29164816" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../POO/AlbertoGF/Actividad_2_Bloque_2_Refactorizada_MVC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../POO/AlbertoGF/Actividad_2_Bloque_2_Refactorizada_MVC/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POO/AlbertoGF/Actividad_2_Bloque_2_Refactorizada_MVC/src/VC/ControladorComercial.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../POO/AlbertoGF/Actividad_2_Bloque_2_Refactorizada_MVC/src/VC/ControladorComercial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POO/SegundoTrimestre/ActividadFinal/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../POO/SegundoTrimestre/ActividadFinal/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,7 +15,11 @@
   <component name="FavoritesManager">
     <favorites_list name="votos" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="ProjectId" id="1Y29WOYi5LpqKY8FjZVLycoIEBx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -20,7 +29,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/mysql-connector-java-8.0.16.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -39,6 +48,8 @@
       <workItem from="1582187596419" duration="9188000" />
       <workItem from="1582546682902" duration="4000" />
       <workItem from="1582643956691" duration="6020000" />
+      <workItem from="1587737531143" duration="118000" />
+      <workItem from="1587737729082" duration="103000" />
     </task>
     <servers />
   </component>
@@ -46,21 +57,28 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1032" y="183" key="#Deployment" timestamp="1582131614407">
+    <state x="1032" y="183" key="#Deployment" timestamp="1587737648404">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="1032" y="183" key="#Deployment/0.0.1920.1040/-1920.-242.1920.1040@0.0.1920.1040" timestamp="1587737648404" />
     <state x="1032" y="183" key="#Deployment/0.0.1920.1040@0.0.1920.1040" timestamp="1582131614407" />
-    <state x="666" y="262" key="FileChooserDialogImpl" timestamp="1582130025378">
+    <state x="666" y="262" key="FileChooserDialogImpl" timestamp="1587737779866">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="666" y="262" key="FileChooserDialogImpl/0.0.1920.1040/-1920.-242.1920.1040@0.0.1920.1040" timestamp="1587737779866" />
     <state x="666" y="262" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1582130025378" />
     <state x="440" y="95" key="SettingsEditor" timestamp="1582130027397">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="95" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1582130027397" />
-    <state x="0" y="145" key="new project wizard" timestamp="1582194019445">
+    <state x="655" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1587737730678">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="655" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.-242.1920.1040@0.0.1920.1040" timestamp="1587737730678" />
+    <state x="404" y="137" width="1235" height="638" key="new project wizard" timestamp="1587737830589">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="404" y="137" width="1235" height="638" key="new project wizard/0.0.1920.1040/-1920.-242.1920.1040@0.0.1920.1040" timestamp="1587737830589" />
     <state x="0" y="145" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1582194019445" />
   </component>
 </project>
