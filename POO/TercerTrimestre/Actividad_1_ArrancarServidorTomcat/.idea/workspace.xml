@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="IniciarServidorTomcat:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="935a1368-c1e3-493e-a85f-5105f2b87089" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1b4nL9u6Pr5ExBLo7aFwFXTbRRy" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../edades" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Alberto\Desktop\Actividad_1_ArrancarServidorTomcat\src\main\webapp" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.34">
+    <configuration name="ExpertoCerveza" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.politecnico.Modelo.ExpertoCerveza" />
+      <module name="IniciarServidorTomcat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.politecnico.Modelo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 9.0.34" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Remote" APPLICATION_SERVER_NAME="Tomcat 9.0.34" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="HOST" value="51.68.123.197" />
+      <option name="LOCAL" value="false" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://51.68.123.197:8080/IniciarServidorTomcat_war/" />
+      <option name="UPDATING_POLICY" value="hot-swap-classes" />
+      <deployment>
+        <artifact name="IniciarServidorTomcat:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/IniciarServidorTomcat_war" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <data>
+          <option name="targets">
+            <list>
+              <WatchedTargetModelImpl>
+                <option name="name" value="CONTEXT_XML" />
+                <option name="transportStagingTarget">
+                  <TransportTarget>
+                    <option name="id" value="9801bb19-35e3-401c-b1c8-695b6d6bdb1e" />
+                    <id>9801bb19-35e3-401c-b1c8-695b6d6bdb1e</id>
+                  </TransportTarget>
+                </option>
+                <option name="watchedLocalPath" value="" />
+                <watched-path />
+                <name>CONTEXT_XML</name>
+                <transport-target>
+                  <TransportTarget>
+                    <option name="id" value="9801bb19-35e3-401c-b1c8-695b6d6bdb1e" />
+                    <id>9801bb19-35e3-401c-b1c8-695b6d6bdb1e</id>
+                  </TransportTarget>
+                </transport-target>
+              </WatchedTargetModelImpl>
+              <StagingTargetModelImpl>
+                <option name="name" value="STAGING" />
+                <option name="stagingRemotePath" value="/" />
+                <option name="transportStagingTarget">
+                  <TransportTarget>
+                    <option name="id" value="0ef9ea14-c3f5-4e2a-8020-d2a2a5747974" />
+                    <id>0ef9ea14-c3f5-4e2a-8020-d2a2a5747974</id>
+                  </TransportTarget>
+                </option>
+                <staging-path>/</staging-path>
+                <name>STAGING</name>
+                <transport-target>
+                  <TransportTarget>
+                    <option name="id" value="0ef9ea14-c3f5-4e2a-8020-d2a2a5747974" />
+                    <id>0ef9ea14-c3f5-4e2a-8020-d2a2a5747974</id>
+                  </TransportTarget>
+                </transport-target>
+              </StagingTargetModelImpl>
+            </list>
+          </option>
+          <option name="transportHostId" value="43de518b-009d-4a8f-80ab-86d152227e5c" />
+          <host-id>43de518b-009d-4a8f-80ab-86d152227e5c</host-id>
+        </data>
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="TOMCAT_LOCALHOST_LOG_ID" />
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </extension>
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="53318" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="IniciarServidorTomcat:war" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.Tomcat 9.0.34" />
+      <item itemvalue="Application.ExpertoCerveza" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ExpertoCerveza" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="935a1368-c1e3-493e-a85f-5105f2b87089" name="Default Changelist" comment="" />
+      <created>1587900174963</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587900174963</updated>
+      <workItem from="1587900177193" duration="7543000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="178" key="#Deployment" timestamp="1587913907280">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#Deployment/0.0.1920.1040/-1920.-242.1920.1040@0.0.1920.1040" timestamp="1587913907280" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587913938775">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.-242.1920.1040@0.0.1920.1040" timestamp="1587913938775" />
+    <state x="729" y="221" key="#com.intellij.ide.util.MemberChooser" timestamp="1587915199054">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="729" y="221" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1920.-242.1920.1040@0.0.1920.1040" timestamp="1587915199054" />
+    <state x="1082" y="278" key="FileChooserDialogImpl" timestamp="1587912402074">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1082" y="278" key="FileChooserDialogImpl/0.0.1920.1040/-1920.-242.1920.1040@0.0.1920.1040" timestamp="1587912402074" />
+    <state width="1293" height="279" key="GridCell.Tab.0.bottom" timestamp="1587916735698">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-242.1920.1040@-1920.-242.1920.1040" timestamp="1587914188618" />
+    <state width="1293" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-242.1920.1040@0.0.1920.1040" timestamp="1587916735698" />
+    <state width="1293" height="279" key="GridCell.Tab.0.center" timestamp="1587916735698">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="279" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-242.1920.1040@-1920.-242.1920.1040" timestamp="1587914188618" />
+    <state width="1293" height="279" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-242.1920.1040@0.0.1920.1040" timestamp="1587916735698" />
+    <state width="1293" height="279" key="GridCell.Tab.0.left" timestamp="1587916735698">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="279" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-242.1920.1040@-1920.-242.1920.1040" timestamp="1587914188618" />
+    <state width="1293" height="279" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-242.1920.1040@0.0.1920.1040" timestamp="1587916735698" />
+    <state width="1293" height="279" key="GridCell.Tab.0.right" timestamp="1587916735698">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="279" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-242.1920.1040@-1920.-242.1920.1040" timestamp="1587914188618" />
+    <state width="1293" height="279" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-242.1920.1040@0.0.1920.1040" timestamp="1587916735698" />
+    <state width="1293" height="282" key="GridCell.Tab.1.bottom" timestamp="1587915208189">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="282" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.-242.1920.1040@0.0.1920.1040" timestamp="1587915208189" />
+    <state width="1293" height="282" key="GridCell.Tab.1.center" timestamp="1587915208188">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="282" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.-242.1920.1040@0.0.1920.1040" timestamp="1587915208188" />
+    <state width="1293" height="282" key="GridCell.Tab.1.left" timestamp="1587915208188">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="282" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.-242.1920.1040@0.0.1920.1040" timestamp="1587915208188" />
+    <state width="1293" height="282" key="GridCell.Tab.1.right" timestamp="1587915208188">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="282" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.-242.1920.1040@0.0.1920.1040" timestamp="1587915208188" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1587913593137">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/-1920.-242.1920.1040@0.0.1920.1040" timestamp="1587913593137" />
+    <state x="765" y="175" width="805" height="542" key="dock-window-1" timestamp="1587900342977">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="175" width="805" height="542" key="dock-window-1/0.0.1920.1040/-1920.-242.1920.1040@0.0.1920.1040" timestamp="1587900342977" />
+    <state x="685" y="219" key="new project wizard" timestamp="1587912389849">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="685" y="219" key="new project wizard/0.0.1920.1040/-1920.-242.1920.1040@0.0.1920.1040" timestamp="1587912389849" />
+  </component>
+</project>
