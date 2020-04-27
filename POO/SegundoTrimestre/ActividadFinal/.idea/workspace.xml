@@ -82,7 +82,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CRUD_Refactorizado" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -180,6 +180,8 @@
       <workItem from="1587468333681" duration="2443000" />
       <workItem from="1587479238606" duration="19000" />
       <workItem from="1587489942398" duration="607000" />
+      <workItem from="1588002233999" duration="1780000" />
+      <workItem from="1588007153503" duration="1209000" />
     </task>
     <servers />
   </component>
