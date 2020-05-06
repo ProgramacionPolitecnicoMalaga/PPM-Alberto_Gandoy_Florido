@@ -1,50 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ce97998a-0255-474e-aa4a-bfd4ef0ca32b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ce97998a-0255-474e-aa4a-bfd4ef0ca32b" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="BaseDeDatos" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="BaseDeDatos" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="BaseDeDatos" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="Validados: schema" type="76f4a085:MysqlImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="BaseDeDatos" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="Validados: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="Usuario: table" type="285a2a93:MysqlImplModel$Table" />
-      </path>
-    </expand>
-    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -57,18 +18,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
-  <component name="IgnoredFileRootStore">
-    <option name="generatedRoots">
-      <set>
-        <option value="C:\Users\Alberto\Desktop\PPM-Alberto_Gandoy_Florido\POO\SegundoTrimestre\ActividadFinal\.idea" />
-      </set>
-    </option>
-  </component>
   <component name="ProjectId" id="1ZqnU6eX8Xzlf8t6OHddX213cQf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -82,7 +35,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../RepasoTrimestre/Actividades Propuestas/ActividadPropuestaAlberto" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -182,11 +135,12 @@
       <workItem from="1587489942398" duration="607000" />
       <workItem from="1588002233999" duration="1780000" />
       <workItem from="1588007153503" duration="1209000" />
+      <workItem from="1588686480853" duration="48000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="72" y="183" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585942548235">
@@ -201,11 +155,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="519" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585815144017" />
-    <state x="1106" y="266" key="FileChooserDialogImpl" timestamp="1587305715247">
+    <state x="1106" y="266" key="FileChooserDialogImpl" timestamp="1588686520728">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-814" y="24" key="FileChooserDialogImpl/0.0.1920.1040/-1920.-242.1920.1040@-1920.-242.1920.1040" timestamp="1587224573147" />
-    <state x="1106" y="266" key="FileChooserDialogImpl/0.0.1920.1040/-1920.-242.1920.1040@0.0.1920.1040" timestamp="1587305715247" />
+    <state x="1106" y="266" key="FileChooserDialogImpl/0.0.1920.1040/-1920.-242.1920.1040@0.0.1920.1040" timestamp="1588686520728" />
     <state x="1106" y="266" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1585925178763" />
     <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1587467936878">
       <screen x="0" y="0" width="1920" height="1040" />

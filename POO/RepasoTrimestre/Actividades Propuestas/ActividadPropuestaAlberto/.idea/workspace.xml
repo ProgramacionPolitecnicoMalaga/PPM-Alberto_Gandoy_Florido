@@ -2,22 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7646cd58-cafc-42ac-9c4a-ea794be84915" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../FernandoPropuesta/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Actividad_2_Blq_2_Repaso/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Actividad_2_Blq_2_Repaso/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/AppVehiculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/AppVehiculo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Modelo/Concesionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modelo/Concesionario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FernandoPropuesta/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FernandoPropuesta/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FernandoPropuesta/out/production/FernandoPropuesta/Modelo/Cafeteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/../FernandoPropuesta/out/production/FernandoPropuesta/Modelo/Cafeteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FernandoPropuesta/out/production/FernandoPropuesta/Negocio/Cuenta.class" beforeDir="false" afterPath="$PROJECT_DIR$/../FernandoPropuesta/out/production/FernandoPropuesta/Negocio/Cuenta.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FernandoPropuesta/out/production/FernandoPropuesta/Negocio/Mesa.class" beforeDir="false" afterPath="$PROJECT_DIR$/../FernandoPropuesta/out/production/FernandoPropuesta/Negocio/Mesa.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FernandoPropuesta/out/production/FernandoPropuesta/SwingUI/GestorControlador.class" beforeDir="false" afterPath="$PROJECT_DIR$/../FernandoPropuesta/out/production/FernandoPropuesta/SwingUI/GestorControlador.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FernandoPropuesta/out/production/FernandoPropuesta/SwingUI/Vista.class" beforeDir="false" afterPath="$PROJECT_DIR$/../FernandoPropuesta/out/production/FernandoPropuesta/SwingUI/Vista.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FernandoPropuesta/src/Modelo/Cafeteria.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FernandoPropuesta/src/Modelo/Cafeteria.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FernandoPropuesta/src/Negocio/Cuenta.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FernandoPropuesta/src/Negocio/Cuenta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FernandoPropuesta/src/Negocio/Mesa.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FernandoPropuesta/src/Negocio/Mesa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FernandoPropuesta/src/SwingUI/GestorControlador.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FernandoPropuesta/src/SwingUI/GestorControlador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FernandoPropuesta/src/SwingUI/Vista.form" beforeDir="false" afterPath="$PROJECT_DIR$/../FernandoPropuesta/src/SwingUI/Vista.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SegundoTrimestre/ActividadFinal/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SegundoTrimestre/ActividadFinal/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +25,6 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -105,11 +90,12 @@
       <workItem from="1581329300706" duration="3469000" />
       <workItem from="1581368357074" duration="28000" />
       <workItem from="1581420063048" duration="183000" />
+      <workItem from="1588686523009" duration="1065000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.csv" />
