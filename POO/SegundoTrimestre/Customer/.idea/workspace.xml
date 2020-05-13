@@ -2,130 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f9738fd-20da-46b1-b3d4-863638efe6a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../AlbertoGF/Actividad_2_Bloque_2_Refactorizada_MVC/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../AlbertoGF/Actividad_2_Bloque_2_Refactorizada_MVC/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../AlbertoGF/ED/MultiModulos/CalculadoraMultimodulo/CalculadoraMultimodulo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../AlbertoGF/MiconexionJSP/MiconexionJSP.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../PrimerTrimestre/RepasoPreExamen/RepasoPreExamen.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../JSP.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/.idea/libraries/gson_2_8_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/.idea/libraries/jdk7_2_1_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/JAR/gson-2.8.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/JAR/jdk7-2.1.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/JAR/mysql-connector-java-8.0.16.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/JAR/protobuf-java-3.6.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/MiconexionJSP.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/out/production/MiconexionJSP/App/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/out/production/MiconexionJSP/Conexion/Conexion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/out/production/MiconexionJSP/Consulta/Consultas.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/out/production/MiconexionJSP/LoggerLoggin/Control.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/out/production/MiconexionJSP/MVC/Controlador.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/out/production/MiconexionJSP/MVC/Vista.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/out/production/MiconexionJSP/Modelo/Empleado.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/out/production/MiconexionJSP/Modelo/IEmpleadoDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/out/production/MiconexionJSP/NegocioDAO/EmpleadoDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/out/production/MiconexionJSP/TestConexion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/out/production/MiconexionJSP/com/intellij/uiDesigner/core/AbstractLayout.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/out/production/MiconexionJSP/com/intellij/uiDesigner/core/DimensionInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/out/production/MiconexionJSP/com/intellij/uiDesigner/core/GridConstraints.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/out/production/MiconexionJSP/com/intellij/uiDesigner/core/GridLayoutManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/out/production/MiconexionJSP/com/intellij/uiDesigner/core/HorizontalInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/out/production/MiconexionJSP/com/intellij/uiDesigner/core/LayoutState.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/out/production/MiconexionJSP/com/intellij/uiDesigner/core/Spacer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/out/production/MiconexionJSP/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/out/production/MiconexionJSP/com/intellij/uiDesigner/core/SupportCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/out/production/MiconexionJSP/com/intellij/uiDesigner/core/Util.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/out/production/MiconexionJSP/com/intellij/uiDesigner/core/VerticalInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/src/App/Demo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/src/Conexion/Conexion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/src/Consulta/Consultas.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/src/LoggerLoggin/Control.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/src/MVC/Controlador.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/src/MVC/Vista.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/src/MVC/Vista.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/src/Modelo/Empleado.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/src/Modelo/IEmpleadoDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/src/NegocioDAO/EmpleadoDaoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MiconexionJSP/src/TestConexion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/ActividadMultiModulo/1.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/Calculadora/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/Calculadora/src/main/java/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/Calculadora/target/Calculadora-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/Calculadora/target/classes/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/Calculadora/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/Calculadora/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/Calculadora/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/Calculadora/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/CalculadoraMultimodulo.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/Division/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/Division/src/main/java/Division.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/Division/target/Division-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/Division/target/classes/Division.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/Division/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/Division/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/Division/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/Division/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/Multiplicacion/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/Multiplicacion/src/main/java/Multiplicacion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/Multiplicacion/target/Multiplicacion-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/Multiplicacion/target/classes/Multiplicacion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/Multiplicacion/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/Multiplicacion/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/Multiplicacion/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/Multiplicacion/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/Resta/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/Resta/src/main/java/Resta.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/Resta/target/Resta-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/Resta/target/classes/Resta.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/Resta/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/Resta/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/Resta/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/Resta/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/Suma/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/Suma/src/main/java/Suma.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/Suma/target/Suma-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/Suma/target/classes/Suma.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/Suma/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/Suma/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/Suma/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/Suma/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/CalculadoraMultimodulo/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/capturasMultimodulos/1.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/capturasMultimodulos/2.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/capturasMultimodulos/3.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MultiModulos/capturasMultimodulos/4.PNG" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TercerTrimestre/Observer/Actividad_2_Observer/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TercerTrimestre/Singelton/Singelton.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TercerTrimestre/Strategy/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TercerTrimestre/Strategy/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TercerTrimestre/Strategy/.idea/Strategy.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TercerTrimestre/Strategy/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TercerTrimestre/Strategy/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TercerTrimestre/Strategy/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TercerTrimestre/Strategy/.idea/libraries/Maven__junit_junit_4_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TercerTrimestre/Strategy/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TercerTrimestre/Strategy/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TercerTrimestre/Strategy/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TercerTrimestre/Strategy/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../AlbertoGF/Actividad_2_Bloque_2_Refactorizada_MVC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../AlbertoGF/Actividad_2_Bloque_2_Refactorizada_MVC/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RepasoPreExamen/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RepasoPreExamen/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RepasoPreExamen/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RepasoPreExamen/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RepasoPreExamen/DatosEmpleados.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RepasoPreExamen/DatosProyecto.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RepasoPreExamen/RepasoPreExamen.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RepasoPreExamen/src/Actividad.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RepasoPreExamen/src/Administrador.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RepasoPreExamen/src/Aplicacion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RepasoPreExamen/src/Empleado.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RepasoPreExamen/src/JefeDeOperacion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RepasoPreExamen/src/JefeDeProyecto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RepasoPreExamen/src/Nomina.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RepasoPreExamen/src/Productividad.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RepasoPreExamen/src/Programador.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RepasoPreExamen/src/Proyecto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RepasoPreExamen/src/Tecnico.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RepasoPreExamen/src/XMLGenerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RepasoPreExamen/src/XMLGeneratorAtr.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2a326735-3472-47b0-933f-8cb6d3b4148e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/2a326735-3472-47b0-933f-8cb6d3b4148e.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ActividadFinal/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ActividadFinal/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TercerTrimestre/Strategy/Actividad_1_Strategy/Actividad_1_Strategy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../TercerTrimestre/Strategy/Actividad_1_Strategy/Actividad_1_Strategy.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TercerTrimestre/Strategy/Actividad_1_Strategy/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../TercerTrimestre/Strategy/Actividad_1_Strategy/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TercerTrimestre/Strategy/Actividad_1_Strategy/src/main/java/com/politecnico/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../TercerTrimestre/Strategy/Actividad_1_Strategy/src/main/java/com/politecnico/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,18 +75,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
-  <component name="IgnoredFileRootStore">
-    <option name="generatedRoots">
-      <set>
-        <option value="C:\Users\Alberto\Desktop\PPM-Alberto_Gandoy_Florido\POO\SegundoTrimestre\Customer\.idea" />
-      </set>
-    </option>
-  </component>
   <component name="ProjectId" id="1ZReX73Nzkrwx0T4Gx2QEJxhs1u" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -206,7 +93,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ActividadFinal" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -236,28 +123,6 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:CustomerR" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:CustomerR" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@6d3a142d" type="9fbbdea:ServiceModel$ServiceNode" />
-              </path>
-            </expand>
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -275,11 +140,15 @@
       <workItem from="1585843868273" duration="42000" />
       <workItem from="1586007894249" duration="7000" />
       <workItem from="1586793055004" duration="12000" />
+      <workItem from="1589194671201" duration="1326000" />
+      <workItem from="1589296705682" duration="4456000" />
+      <workItem from="1589357543041" duration="425000" />
+      <workItem from="1589359639617" duration="1537000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1104" y="153" width="816" height="699" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584957973539">

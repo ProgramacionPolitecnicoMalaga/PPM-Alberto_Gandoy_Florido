@@ -13,7 +13,7 @@ import java.util.Scanner;
  */
 public class App
 {
-    static Scanner sc = new Scanner(System.in).useDelimiter("\n");
+    public static Scanner sc = new Scanner(System.in).useDelimiter("\n");
     public static void main( String[] args )
     {
         Producto producto = new Producto("Zapatos Gucci",1000,1.2);
