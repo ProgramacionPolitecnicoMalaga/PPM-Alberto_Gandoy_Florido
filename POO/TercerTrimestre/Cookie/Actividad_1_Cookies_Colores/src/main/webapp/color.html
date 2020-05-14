@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Alberto Gandoy Florido Colores</title>
+</head>
+<body>
+<h1>CAMBIAR EL FONDO DE COLOR</h1>
+<form>
+    <input type="color" id="color" name="color">
+    <button id="butEnviar">Cambiar fondo</button>
+</form>
+<script type="text/javascript">
+    console.log(document.cookie);
+
+    var xmlHttpRequest = new XMLHttpRequest();
+    var butEnviar =  document.getElementById("butEnviar");
+    var txtColor = document.getElementById("color");
+    var body = document.getElementsByTagName("BODY")[0];
+
+    butEnviar.addEventListener("click", function (e) {
+        e.preventDefault();
+        xmlHttpRequest.open("POST", "colorCookie", true);
+        xmlHttpRequest.onreadystatechange = function () {
+            if ((xmlHttpRequest.readyState == 4) && (xmlHttpRequest.status == 200)) {
+                console.log(xmlHttpRequest.responseText);
+                let jSon =  JSON.parse(xmlHttpRequest.responseText);
+                if (jSon.status == "ok") {
+                    body.style.backgroundColor = jSon.color;
+                }
+            }
+        }
+        xmlHttpRequest.setRequestHeader('Content-type','application/json; charset=utf-8');
+        xmlHttpRequest.send(JSON.stringify({color:txtColor.value}));
+    });
+
+    window.addEventListener("load", function (e) {
+        var xmlHttpReq = new XMLHttpRequest();
+        xmlHttpReq.open("POST", "colorDeFondo", true);
+        xmlHttpReq.onreadystatechange = function () {
+            if ((xmlHttpReq.readyState == 4) && (xmlHttpReq.status == 200)) {
+                console.log("onreadystatechange=" + xmlHttpReq.responseText);
+                let jSon = JSON.parse(xmlHttpReq.responseText);
+                let cuerpo = document.getElementsByTagName("BODY")[0];
+                console.log(jSon);
+                if (jSon.status == "ok") {
+                    cuerpo.style.backgroundColor = jSon.color;
+                }
+            }
+        }
+        xmlHttpReq.send();
+    });
+</script>
+</body>
+</html>
