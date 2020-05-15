@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Alberto Gandoy Florido</title>
+</head>
+<body>
+Nombre: <input type="text" id="txtNombre" name="txtNombre"><br><br>
+Edad: <input type="text" id="txtEdad" name="txtEdad"><br><br>
+<input type="date" id="txtFecha" name="txtFecha"><br><br>
+<button id="butSesionAdd">Añadir</button>
+<p id="res"></p>
+<script type="text/javascript">
+
+    var xmlHttpRequest = new XMLHttpRequest();
+    var txtNombre = document.getElementById("txtNombre");
+    var txtEdad = document.getElementById("txtEdad");
+    var txtFecha = document.getElementById("txtFecha");
+    var butAdd = document.getElementById("butSesionAdd");
+    var resultado = document.getElementById("res");
+
+    butAdd.addEventListener("click",function (e) {
+        e.preventDefault();
+        xmlHttpRequest.open("POST","iniciar",true);
+        xmlHttpRequest.onreadystatechange = function () {
+            if ((xmlHttpRequest.readyState == 4) && (xmlHttpRequest.status == 200)) {
+                resultado.innerHTML = xmlHttpRequest.response;
+            }
+        }
+        xmlHttpRequest.setRequestHeader('Content-type',"application/json; charset=utf-8");
+        xmlHttpRequest.send(JSON.stringify({nombre:txtNombre.value,edad:txtEdad.value,fecha:txtFecha.value}));
+    })
+
+    window.addEventListener("load",function(){
+        let xhr = new XMLHttpRequest();
+        xhr.open("GET","crear_sesion",true);
+        xhr.onreadystatechange = function(){
+            if ((xhr.readyState == 4) && (xhr.status == 200)) {
+                resultado.innerHTML = xhr.response;
+            }
+        }
+        xhr.send();
+    })
+</script>
+</body>
+</html>
