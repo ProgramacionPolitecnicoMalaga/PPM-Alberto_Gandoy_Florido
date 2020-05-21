@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Opcion2palabrasConcat:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="17c7f163-441d-4da4-988c-81ffd8c1bbd0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Opcion2palabrasConcat.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Concatenador/Concatenacion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Servlet/PalabrasServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/abrir.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/cerrar.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/palabras.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Concatenador/Concatenacion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Servlet/PalabrasServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PizzaExamenAlbertoGandoyFlorido/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PizzaExamenAlbertoGandoyFlorido/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PizzaExamenAlbertoGandoyFlorido/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PizzaExamenAlbertoGandoyFlorido/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PizzaExamenAlbertoGandoyFlorido/PizzaExamenAlbertoGandoyFlorido.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PizzaExamenAlbertoGandoyFlorido/out/production/PizzaExamenAlbertoGandoyFlorido/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PizzaExamenAlbertoGandoyFlorido/out/production/PizzaExamenAlbertoGandoyFlorido/factory/Pizza.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PizzaExamenAlbertoGandoyFlorido/out/production/PizzaExamenAlbertoGandoyFlorido/factory/Pizza4Estaciones.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PizzaExamenAlbertoGandoyFlorido/out/production/PizzaExamenAlbertoGandoyFlorido/factory/PizzaMargarita.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PizzaExamenAlbertoGandoyFlorido/out/production/PizzaExamenAlbertoGandoyFlorido/factory/PizzaProsciutto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PizzaExamenAlbertoGandoyFlorido/out/production/PizzaExamenAlbertoGandoyFlorido/factory/PizzaVegana.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PizzaExamenAlbertoGandoyFlorido/out/production/PizzaExamenAlbertoGandoyFlorido/factory/SelectorDePizza.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PizzaExamenAlbertoGandoyFlorido/src/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PizzaExamenAlbertoGandoyFlorido/src/factory/Pizza.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PizzaExamenAlbertoGandoyFlorido/src/factory/Pizza4Estaciones.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PizzaExamenAlbertoGandoyFlorido/src/factory/PizzaMargarita.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PizzaExamenAlbertoGandoyFlorido/src/factory/PizzaProsciutto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PizzaExamenAlbertoGandoyFlorido/src/factory/PizzaVegana.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PizzaExamenAlbertoGandoyFlorido/src/factory/SelectorDePizza.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="HTML File" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1cDnvatYNcEbWcuWA1uue12YPLB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.34" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Remote" APPLICATION_SERVER_NAME="Tomcat 9.0.34" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="HOST" value="51.68.123.197" />
+      <option name="LOCAL" value="false" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://51.68.123.197:8080/Opcion2palabrasConcat_war/" />
+      <option name="UPDATING_POLICY" value="hot-swap-classes" />
+      <deployment>
+        <artifact name="Opcion2palabrasConcat:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/Opcion2palabrasConcat_war" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <data>
+          <option name="targets">
+            <list>
+              <WatchedTargetModelImpl>
+                <option name="name" value="CONTEXT_XML" />
+                <option name="transportStagingTarget">
+                  <TransportTarget>
+                    <option name="id" value="af13b56a-7562-4bab-aa0c-99c5d858c8fd" />
+                    <id>af13b56a-7562-4bab-aa0c-99c5d858c8fd</id>
+                  </TransportTarget>
+                </option>
+                <option name="watchedLocalPath" value="" />
+                <watched-path />
+                <name>CONTEXT_XML</name>
+                <transport-target>
+                  <TransportTarget>
+                    <option name="id" value="af13b56a-7562-4bab-aa0c-99c5d858c8fd" />
+                    <id>af13b56a-7562-4bab-aa0c-99c5d858c8fd</id>
+                  </TransportTarget>
+                </transport-target>
+              </WatchedTargetModelImpl>
+              <StagingTargetModelImpl>
+                <option name="name" value="STAGING" />
+                <option name="stagingRemotePath" value="/" />
+                <option name="transportStagingTarget">
+                  <TransportTarget>
+                    <option name="id" value="818068aa-7404-4a7b-8f98-215fd37c3608" />
+                    <id>818068aa-7404-4a7b-8f98-215fd37c3608</id>
+                  </TransportTarget>
+                </option>
+                <staging-path>/</staging-path>
+                <name>STAGING</name>
+                <transport-target>
+                  <TransportTarget>
+                    <option name="id" value="818068aa-7404-4a7b-8f98-215fd37c3608" />
+                    <id>818068aa-7404-4a7b-8f98-215fd37c3608</id>
+                  </TransportTarget>
+                </transport-target>
+              </StagingTargetModelImpl>
+            </list>
+          </option>
+          <option name="transportHostId" value="54491046-2ecf-4c2b-9b0e-9f9c6d12c4cd" />
+          <host-id>54491046-2ecf-4c2b-9b0e-9f9c6d12c4cd</host-id>
+        </data>
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="TOMCAT_LOCALHOST_LOG_ID" />
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </extension>
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="60791" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Opcion2palabrasConcat:war" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="17c7f163-441d-4da4-988c-81ffd8c1bbd0" name="Default Changelist" comment="" />
+      <created>1590072262647</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590072262647</updated>
+      <workItem from="1590072268036" duration="4445000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="178" key="#Deployment" timestamp="1590075292944">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#Deployment/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1590075292944" />
+    <state x="536" y="165" key="#SSH_Configurations" timestamp="1590075257351">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="536" y="165" key="#SSH_Configurations/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1590075257351" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590075327575">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1590075327575" />
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1590074029506">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1590074029506" />
+    <state width="913" height="281" key="GridCell.Tab.0.bottom" timestamp="1590076718064">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="913" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1590076718064" />
+    <state width="913" height="281" key="GridCell.Tab.0.center" timestamp="1590076718064">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="913" height="281" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1590076718064" />
+    <state width="913" height="281" key="GridCell.Tab.0.left" timestamp="1590076718064">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="913" height="281" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1590076718064" />
+    <state width="913" height="281" key="GridCell.Tab.0.right" timestamp="1590076718064">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="913" height="281" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1590076718064" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1590073434635">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1590073434635" />
+  </component>
+</project>
