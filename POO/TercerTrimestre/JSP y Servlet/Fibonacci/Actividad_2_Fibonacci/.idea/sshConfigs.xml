@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="51.68.123.197" id="9a5c79b0-4c95-4e35-b483-28e88ab721d3" port="22" customName="FibonacciVPS" nameFormat="CUSTOM" username="root" />
+      <sshConfig authType="PASSWORD" host="51.68.123.197" id="62717f39-f8ba-4410-b3bc-b60bbab9862f" port="22" customName="FibonacciVPS" nameFormat="CUSTOM" username="root" />
+    </configs>
+  </component>
+</project>
