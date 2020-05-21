@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Palabras Gandoy Florido</title>
+</head>
+<body>
+Palabra 1: <input type="text" id="txtP1" name="txtP1"><br>
+Palabra 2: <input type="text" id="txtP2" name="txtP2"><br>
+Palabra 3: <input type="text" id="txtP3" name="txtP3"><br>
+<button id="butAdd" name="butAdd">añadir</button><br>
+<div id="resultado"></div>
+<script type="text/javascript">
+    var txtP1 = document.getElementById("txtP1");
+    var txtP2 = document.getElementById("txtP2");
+    var txtP3 = document.getElementById("txtP3");
+    var butAdd = document.getElementById("butAdd");
+    var resultado = document.getElementById("resultado");
+
+    butAdd.addEventListener("click", function () {
+        let xmlHttpRequest = new XMLHttpRequest();
+        xmlHttpRequest.open("POST","registrado",true);
+        xmlHttpRequest.onreadystatechange = function () {
+            if ((xmlHttpRequest.readyState == 4) && (xmlHttpRequest.status == 200)) {
+                resultado.innerHTML = xmlHttpRequest.response;
+            }
+        }
+        xmlHttpRequest.setRequestHeader('Content-type',"application/json; charset=utf-8");
+        xmlHttpRequest.send(JSON.stringify({p1:txtP1.value,p2:txtP2.value,p3:txtP3.value}))
+    })
+
+    window.addEventListener("load", function () {
+        let xmlHttpRequest = new XMLHttpRequest();
+        xmlHttpRequest.open("GET","registrado",true);
+        xmlHttpRequest.onreadystatechange = function () {
+            if ((xmlHttpRequest.readyState == 4) && (xmlHttpRequest.status == 200)) {
+                resultado.innerHTML = xmlHttpRequest.response;
+            }
+        }
+        xmlHttpRequest.send();
+    })
+</script>
+</body>
+</html>
