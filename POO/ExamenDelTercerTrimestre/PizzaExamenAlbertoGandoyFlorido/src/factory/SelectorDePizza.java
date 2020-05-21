@@ -1,8 +1,8 @@
 package factory;
 
 public class SelectorDePizza {
-    public static Pizza getPizza() {
-        if (1 == Pizza.ESTACIONES)
+    public static Pizza getPizza(int tipoPizza) {
+        if (tipoPizza == Pizza.ESTACIONES)
              return new Pizza4Estaciones();
         else if (tipoPizza == Pizza.MARGARITA)
              return new PizzaMargarita();
@@ -10,7 +10,7 @@ public class SelectorDePizza {
             return new PizzaProsciutto();
         else if (tipoPizza == Pizza.VEGANA)
             return new PizzaVegana();
-        else i
-            pizza = new PizzaMargarita();
+        else
+            return new PizzaMargarita();
     }
 }

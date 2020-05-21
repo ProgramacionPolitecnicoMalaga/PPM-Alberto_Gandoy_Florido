@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class App {
     private static Scanner lectorTeclado = new Scanner(System.in).useDelimiter("\n");
-    private static Pizza pizza;
     public static void main(String[] args) {
 
 
@@ -17,7 +16,7 @@ public class App {
 
             int tipoPizza = lectorTeclado.nextInt();
 
-
+            Pizza pizza = SelectorDePizza.getPizza(tipoPizza);
 
             System.out.println("Pasos a seguir:");
             System.out.println(pizza.preparar());
